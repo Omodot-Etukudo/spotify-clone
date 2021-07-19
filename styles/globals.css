@@ -18,4 +18,10 @@
   .mobile-active-link {
     @apply text-white font-bold;
   }
+  .dropdown-active {
+    @apply block;
+  }
+  .dropdown-disabled {
+    @apply hidden;
+  }
 }
