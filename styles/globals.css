@@ -15,4 +15,7 @@
   .active-link {
     @apply bg-white bg-opacity-10 text-white;
   }
+  .mobile-active-link {
+    @apply text-white font-bold;
+  }
 }

@@ -1,6 +1,6 @@
-import {HomeIcon , SearchIcon , CollectionIcon ,HeartIcon, PlusIcon, DownloadIcon, UserIcon, LinkIcon} from "@heroicons/react/outline"
+import {HomeIcon , SearchIcon , CollectionIcon ,HeartIcon, PlusIcon, DownloadIcon, UserIcon, LinkIcon,} from "@heroicons/react/outline"
 import Image from 'next/image'
-import Headeritem from './Headeritem'
+import Headeritem from './Headeritem'   
 import React, {useState} from "react"
 
 function Sidenav() {
