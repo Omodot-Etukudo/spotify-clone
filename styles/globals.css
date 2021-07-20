@@ -9,6 +9,18 @@
   body {
     @apply bg-[#121212] text-gray-400;
   }
+  body::-webkit-scrollbar {
+    @apply lg:w-3 rounded-lg lg:bg-gray-900 lg:block hidden;
+  }
+  body::-webkit-scrollbar-corner {
+    @apply lg:h-full;
+  }
+  body::-webkit-scrollbar-track {
+    @apply lg:h-2 hidden;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply lg:bg-gray-600 lg:block hidden;
+  }
 }
 
 @layer components {
