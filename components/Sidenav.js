@@ -5,7 +5,7 @@ import React, {useState} from "react"
 
 function Sidenav() {
     return (
-    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-12/12 lg:min-w-12/12 lg:max-w-12/12"> 
+    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-64 fixed left-0 z-50"> 
         <div className="px-6 pt-6 pb-4">
             <Image className="object-contain" width={130} height={38} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
         </div>

@@ -18,7 +18,7 @@ export default function Home() {
       <Mobilenav />
 
       {/*Side Nav*/}
-      <div className=" lg:grid lg:grid-flow-col lg:grid-cols-11">
+      <div>
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
           <Topnav/>

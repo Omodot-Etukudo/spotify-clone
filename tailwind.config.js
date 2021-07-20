@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'vietnam': 'Be Vietnam'
+      },
+      colors: {
+        'spotify-green':'#1db954',
       }
     },
   },
