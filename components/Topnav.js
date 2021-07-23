@@ -8,7 +8,7 @@ function Topnav() {
                         <div className="rounded-full mr-2 hover:cursor-pointer hover:text-white transition-all duration-300 bg-black bg-opacity-70"><ChevronLeftIcon className="h-8 w-8 p-1 " /></div>
                         <div className="rounded-full ml-1 hover:cursor-pointer hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-8 w-8 p-1 " /></div>
                     </div>
-                    <div><input placeholder="Artists, songs or podcasts" className=" focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular"/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-black"/>
+                    <div><input placeholder="Artists, songs or podcasts" className=" focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular"/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-gray-600"/>
                 </div>
                 
                 <div className="py-0.5 hover:cursor-pointer pr-0 mr-12 right-0 w-36 max-w-32 min-w-32 ">

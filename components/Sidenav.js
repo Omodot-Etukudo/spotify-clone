@@ -1,6 +1,7 @@
 import {HomeIcon , SearchIcon , CollectionIcon ,HeartIcon, PlusIcon, DownloadIcon, UserIcon, LinkIcon,} from "@heroicons/react/outline"
 import Image from 'next/image'
 import Headeritem from './Headeritem'   
+import Link from 'next/link'
 import React, {useState} from "react"
 
 function Sidenav() {
@@ -10,10 +11,10 @@ function Sidenav() {
             <Image className="object-contain" layout="responsive" width={110} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
         </div>
         <div className="icon-items pr-4 pl-3">
-
-            <div className="nav-link active-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div>
-            <div className="nav-link rounded-md"><Headeritem title="Search" Icon={SearchIcon} /></div>
-            <div className="nav-link rounded-md"><Headeritem title="Your Library" Icon={CollectionIcon} /></div>
+            <Link href="/"><div className="nav-link active-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
+            
+            <Link href="/search"><div className="nav-link rounded-md"><Headeritem title="Search" Icon={SearchIcon} /></div></Link>
+            <Link href="/collection/playlists"><div className="nav-link rounded-md"><Headeritem title="Your Library" Icon={CollectionIcon} /></div></Link>
             
         </div>
 

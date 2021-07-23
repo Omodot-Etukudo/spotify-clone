@@ -7,6 +7,9 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 8s linear infinite',
        },
+      fontSize:{
+        'xxs':'0.65rem'
+      },
       fontFamily: {
         'vietnam': 'Be Vietnam'
       },
