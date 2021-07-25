@@ -7,8 +7,9 @@ import React, {useState} from "react"
 function Sidenav() {
     return (
     <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-64 fixed left-0 z-50"> 
+    <aside>
         <div className="pl-2 pr-20 pt-6 pb-4">
-            <Image className="object-contain" layout="responsive" width={110} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
+            <Image placeholder="blur" blurDataURL className="object-contain" layout="responsive" width={110} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
         </div>
         <div className="icon-items pr-4 pl-3">
             <Link href="/"><div className="nav-link active-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
@@ -32,7 +33,7 @@ function Sidenav() {
             
         </div>
 
-
+    </aside>
     </div>
        
     )

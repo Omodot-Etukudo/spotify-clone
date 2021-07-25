@@ -19,11 +19,23 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10',
+       },
+       inset: {
+        '66': '17rem',
+       },
+       margin: {
+        '66': '15.55rem',
+        '23':"5.6rem",
+        "-31":"-6rem",
+        "30":"8rem"
        }
+      
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ]
 }
