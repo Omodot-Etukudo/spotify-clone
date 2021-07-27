@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "title":"Stories",
+        "artist": "Avicii",
+        "songs":[
+            {
+                "id": 1,
+                "title":"Waiting for love"
+            },
+            {
+                "id": 2,
+                "title":"Talk to myself"
+            },
+            {
+                "id": 3,
+                "title":"Touch Me"
+            },
+            {
+                "id": 4,
+                "title":"Ten more days"
+            },
+            {
+                "id": 5,
+                "title":"For a better day"
+            }
+        ]
+        
+    },
+    {
+        "id": 2,
+        "title":"Lucid",
+        "artist": "Asa",
+        "songs":[
+            {
+                "id": 1,
+                "title":"Murder in the Usa"
+            },
+            {
+                "id": 2,
+                "title":"The Beginning"
+            },
+            {
+                "id": 3,
+                "title":"Good Thing"
+            },
+            {
+                "id": 4,
+                "title":"Stay Tonight"
+            },
+            {
+                "id": 5,
+                "title":"Torn"
+            }
+        ]
+        
+    }
+]
+
+
+
