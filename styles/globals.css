@@ -24,6 +24,13 @@
 }
 
 @layer components {
+  .slider::-webkit-slider-thumb {
+    @apply bg-spotify-green;
+  }
+  .slider {
+    @apply outline-none;
+    @apply bg-spotify-green;
+  }
   .active-link {
     @apply bg-white bg-opacity-10 text-white;
   }
