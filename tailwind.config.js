@@ -30,7 +30,7 @@ module.exports = {
         "30":"8rem"
        },
        spacing: {
-        
+        '86': '21rem',
         '110': '30rem'
       }
       

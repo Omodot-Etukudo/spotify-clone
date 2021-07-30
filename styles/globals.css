@@ -21,16 +21,15 @@
   body::-webkit-scrollbar-thumb {
     @apply lg:bg-gray-600 lg:block hidden;
   }
-}
-
-@layer components {
+  .slider::-webkit-slider-runnable-track {
+    @apply rounded-xl;
+  }
   .slider::-webkit-slider-thumb {
     @apply bg-spotify-green;
   }
-  .slider {
-    @apply outline-none;
-    @apply bg-spotify-green;
-  }
+}
+
+@layer components {
   .active-link {
     @apply bg-white bg-opacity-10 text-white;
   }

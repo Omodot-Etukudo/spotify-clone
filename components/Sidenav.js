@@ -23,10 +23,16 @@ function Sidenav() {
             <div className="nav-link rounded-md"><Headeritem title="Create Playlist" Icon={PlusIcon} /></div>
             <div className="nav-link rounded-md"><Headeritem title="Liked Songs" Icon={HeartIcon} /></div>
             
-            <div className="px-4 mb-20"><hr className=" border-white opacity-10"/></div>
+            <div className="px-4 mb-2"><hr className=" border-white opacity-10"/></div>
             
         </div>
-        <div className="mt-20 pr-4 pl-3">
+        <div>
+            <div className="library-list flex flex-col space-y-3 text-xs h-36 max-h-36 min-h-36 pl-7 py-2 tracking-wide">
+                <h3 className="hover:text-white transition-all cursor-default">The Midnight Hour</h3>
+                <h3 className="hover:text-white transition-all cursor-default">Your Coffee Break</h3>     
+            </div>
+        </div>
+        <div className="pr-4 pl-3">
             <div className="cursor-pointer flex pr-6 pl-4 my-1 py-2 rounded-md hover:text-white hover:font-medium transition-all duration-300"><DownloadIcon className=" w-6" /><p className="ml-4 my-auto font-semibold text-sm">Install App</p></div>
             <div className="mt-10"><div className="cursor-pointer flex pr-6 my-1 py-2 rounded-md hover:text-white hover:font-regular transition-all duration-300 hover:underline"><p className="ml-4 my-auto font-light text-xs ">Privacy Policy</p></div>
             <div className="cursor-pointer flex pr-6 my-1 py-2 rounded-md hover:text-white hover:font-regular transition-all duration-300 hover:underline"><p className="ml-4 my-auto font-light text-xs ">Cookie Policy</p></div></div>
