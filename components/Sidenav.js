@@ -6,7 +6,7 @@ import React, {useState} from "react"
 
 function Sidenav() {
     return (
-    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-64 fixed left-0 z-50"> 
+    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-64 fixed left-0 lg:z-50"> 
     <aside>
         <div className="pl-2 pr-20 pt-6 pb-4">
             <Image placeholder="blur" blurDataURL className="object-contain" layout="responsive" width={110} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />

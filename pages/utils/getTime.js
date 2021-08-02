@@ -1,17 +1,17 @@
 const myTime = new Date();
 const hours = myTime.getHours();
-let message;
+let greeting;
 
 if(hours < 12){
-    message = "Good Morning";
+    greeting = "Good Morning";
 }
 if(hours >= 12 && hours <= 17){
-    message = "Good Afternoon";
+    greeting = "Good Afternoon";
 }
 if(hours >= 17 && hours <= 24)
 {
-    message = "Good Evening";
+    greeting = "Good Evening";
 }
    
 
-export default message;
+export default greeting;

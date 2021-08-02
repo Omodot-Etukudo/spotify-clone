@@ -1,12 +1,12 @@
 import Mediacard from "./Mediacard";
 import ShortcutMedia from "./ShortcutMedia";
-import message from "../pages/utils/getTime";
+import greeting from "../pages/utils/getTime";
 function Feed() {
     return (
-        <div className="h-full lg:h-full lg:pl-72 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-10 bg-gradient-to-tl from-black  via-black to-gray-700 lg:from-gray-900 lg:via-gray-900 lg:to-black bg-auto bg-fixed">
-            <div className="mb-28">
-                <h1 className="text-white text-lg lg:text-3xl font-semibold mb-10">{message}</h1>
-                <div className=" flex">
+        <div className="h-full lg:h-full lg:pl-72 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-10 lg:from-gray-900 lg:via-gray-900 lg:to-black bg-auto bg-fixed">
+            <div className="lg:mb-28 hidden lg:block">
+                <h1 className="text-white text-lg lg:text-3xl font-semibold mb-6">{greeting}</h1>
+                <div className="flex">
                     <ShortcutMedia title="New Lagos Vibe"/>
                 </div>
             </div>

@@ -15,7 +15,8 @@ module.exports = {
       },
       colors: {
         'spotify-green':'#1db954',
-        'dark-red':'#261A1A'
+        'dark-red':'#261A1A',
+        'main-bg':'#121212',
       },
       zIndex: {
         '-10': '-10',

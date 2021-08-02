@@ -23,7 +23,7 @@ export default function Home() {
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
           <Topnav className=" hidden" />
-          <Feed className=" -z-10"/>
+          <Feed className=" lg:-z-10"/>
         </div>
         <MediaController/>
       </div>

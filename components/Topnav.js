@@ -1,10 +1,12 @@
 import React, {useState} from "react"
+import MobileOptions from "./MobileOptions"
+import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
 function Topnav({className}) {
     const [showOptions, toggleOptions] = useState(false)
     return (       
-        <div className="top-0 bg-opacity-80 lg:fixed z-40 lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-72 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 lg:bg-gray-900 absolute ">
+        <div className="top-0 bg-opacity-80 lg:fixed lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-72 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 lg:bg-gray-900 absolute ">
             <div className=" w-10/12 pr-6 py-2 hidden lg:flex justify-between">
                 <div className="justify-between lg:flex hidden fixed">
                     <div className="flex py-1">
@@ -28,20 +30,17 @@ function Topnav({className}) {
                     {/*OPTIONS*/}
                     
                      {
-                         showOptions?<OptionsDropdown/> :null
+                         showOptions? (<OptionsDropdown/>) :null
                      }
                        
                     
                     {/*END OF OPTIONS*/}
                       
-            </div>
-            <div className="flex justify-end lg:hidden">
-                <div className="py-2 px-2 my-4 ml-2 rounded-full bg-black bg-opacity-60 transition-all duration-300 cursor-pointer hover:text-white">
-                    <CogIcon className="h-7 w-7"/>
                 </div>
+                
+            
             </div>
-           
-        </div>
+            <MobileSettingsButton/>
         </div>
         
     )
