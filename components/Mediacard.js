@@ -10,10 +10,11 @@ function Mediacard({picture, title, artist,year}) {
                 <div className="title-text">
                     <h3 className="text-sm  lg:text-base mt-2 lg:mt-4 font-semibold text-white lg:text-left text-center truncate">{title}</h3>
                 </div>
-                
+               
                 <div className="flex lg:text-left text-center"><h3 className=" text-xs mt-1 truncate font-medium lg:text-left lg:mx-0 mx-auto">{artist}</h3><span className="font-bold mx-1 hidden lg:block">&#183;</span><h3 className=" hidden lg:block text-xs mt-1 font-medium">{year}</h3></div>
                 
             </div>
+            
             <div className="drop-shadow-2xl hidden lg:block group-hover:opacity-100 lg:z-20  group-hover:top-32 opacity-0 cursor-default relative top-36 left-32 rounded-full bg-spotify-green w-10 h-10 p-2 hover:scale-110  transition-all duration-300">
                 <PlayIcon aria-label="Play Music" className="w-6 h-6 text-white"/>
             </div>

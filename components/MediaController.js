@@ -1,11 +1,15 @@
 import { HeartIcon, ViewGridIcon, ViewListIcon , VolumeUpIcon, DesktopComputerIcon, SwitchHorizontalIcon, SwitchVerticalIcon} from "@heroicons/react/outline"
-import { ChevronUpIcon, PlayIcon, RewindIcon, FastForwardIcon } from "@heroicons/react/solid"
+import { ChevronUpIcon, PlayIcon, RewindIcon, FastForwardIcon, PauseIcon} from "@heroicons/react/solid"
 import Image from 'next/image'
+import OutlinedHeart from "./HeartIcons/OutlinedHeart"
+import SolidHeart from "./HeartIcons/SolidHeart"
 import { BASE_URL, BASE_URL2 } from "../next.config"
 import MediaTileBig from "./MediaTileBig"
 import React, {useState} from "react"
 function MediaController() {
     const[mediaTileShow, toggleTile] = useState(false)
+    const [isPaused, togglePlay]= useState(true)
+    const [isLiked, toggleLike]= useState(true)
     return (
         <div className="absolute lg:z-50 z-100">
             
@@ -25,11 +29,12 @@ function MediaController() {
                             </div>
                             
                             <div className="flex flex-col pt-3 pl-14 max-w-60 w-60 ml-4">
-                                <h3 className="text-white text-xs cursor-pointer hover:underline transition-all duration-300 truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
+                                <h3 className="text-white text-xs cursor-pointer hover:underline transition-all duration-300 sm:truncate md:truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
                                 <h3 className="font-light mb-2 text-xs cursor-pointer hover:text-white hover:underline transition-all duration-200">Ignis Brothers</h3>
                             </div>
                             <div className="flex space-x-3 my-auto">
-                               <HeartIcon className="w-4 h-4 ml-4 hover:text-white transition-colors duration-300" />
+                            {isLiked?<OutlinedHeart onClick={()=>toggleLike(!isLiked)}  />:null}
+                            {!isLiked?<SolidHeart onClick={()=>toggleLike(!isLiked)}  />:null}
                                <ViewGridIcon className="w-4 h-4 hover:text-white transition-colors duration-300"/>
                             </div>
                         </div>
@@ -38,7 +43,8 @@ function MediaController() {
                         <div className="flex space-x-3 mx-auto my-auto">
                             <SwitchHorizontalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
                             <RewindIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
-                            <PlayIcon className="w-10 h-10 text-white hover:scale-110 transition-all duration-100"/>
+                    {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl"/> :null}
+                    {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl" /> :null}
                             <FastForwardIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
                             <SwitchVerticalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
                         </div>
@@ -58,15 +64,16 @@ function MediaController() {
                     </div>
                 </div>
                 {/* MOBILE COMPONENTS */}
-                <div className="flex justify-between lg:hidden px-4" >
+                <div className="flex justify-between lg:hidden px-2 border-b pb-2 border-gray-800" >
                     <div>
                         <HeartIcon className="w-7 h-7 my-1.5 text-white" />
                     </div>
                     <div className="px-4 h-full">
-                        <div className="flex my-2 space-x-2"><h3 className="text-sm w-36 truncate my-auto font-semibold text-white">Time Go Come (feat. Phlow)</h3><h3 className="font-bold my-auto text-white">&#183;</h3><h3 className="text-xs font-semibold my-auto w-16 truncate">Ignis Brothers</h3></div>
+                        <div className="flex my-2 space-x-2"><h3 className="text-sm truncate my-auto font-semibold text-white w-40">Time Go Come (feat. Phlow)</h3><h3 className="font-bold my-auto text-white">&#183;</h3><h3 className="text-xs font-semibold my-auto w-16 truncate">Ignis Brothers</h3></div>
                     </div>
                     <div>
-                        <PlayIcon className="w-7 h-7 my-1.5 text-white" />
+                        {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-8 h-8 mt-1 text-white transition-all active:scale-110 duration-100 shadow-2xl drop-shadow-2xl"/> :null}
+                        {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-8 h-8 mt-1 text-white transition-all active:scale-110 duration-100 shadow-2xl drop-shadow-2xl" /> :null}
                     </div>
                 </div>
             </div>

@@ -20,6 +20,7 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10',
+        '-20':'-20,'
        },
        inset: {
         '66': '17rem',
@@ -31,6 +32,8 @@ module.exports = {
         "30":"8rem"
        },
        spacing: {
+         '42':'10.6rem',
+        '84': '20.1rem',
         '86': '21rem',
         '110': '30rem'
       }

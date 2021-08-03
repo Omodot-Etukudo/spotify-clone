@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Mobilenavitem from "./Mobilenavitem"
 export default function Mobilenav() {
     return (
-        <div className="flex z-100 justify-between py-3 px-4 fixed bottom-0 w-full h-16 bg-gray-900 sm:fixed md:fixed lg:hidden">
+        <div className="flex z-50 justify-between py-3 px-4 fixed bottom-0 w-full h-16 bg-gray-900 sm:fixed md:fixed lg:hidden">
             <Link href="/"><div className="mobile-active-link rounded-md pb-1"><Mobilenavitem className="col-span-1" title="Home" Icon={HomeIcon} /></div></Link>
             <Link href="/search"><div><Mobilenavitem className="col-span-1" title="Search" Icon={SearchIcon} /></div></Link>
             <div><Mobilenavitem className="col-span-1" title="Your Library" Icon={CollectionIcon} /></div>

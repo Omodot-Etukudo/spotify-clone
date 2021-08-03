@@ -4,10 +4,15 @@ import greeting from "../pages/utils/getTime";
 function Feed() {
     return (
         <div className="h-full lg:h-full lg:pl-72 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-10 lg:from-gray-900 lg:via-gray-900 lg:to-black bg-auto bg-fixed">
-            <div className="lg:mb-28 hidden lg:block">
-                <h1 className="text-white text-lg lg:text-3xl font-semibold mb-6">{greeting}</h1>
-                <div className="flex">
-                    <ShortcutMedia title="New Lagos Vibe"/>
+            <div className="lg:mb-10 hidden lg:block">
+                <h1 className="text-white text-lg lg:text-3xl font-semibold">{greeting}</h1>
+                <div className="flex flex-wrap">
+                    <ShortcutMedia title="New Lagos Vibe feat. Show Dem Camp" picture="ab67706c0000bebb36ad4d3d19716d3d546b2997"/>
+                    <ShortcutMedia title="Jubilee Juneteenth Edition" picture="ab67616d0000b2732ed45ea1c204bb155e363e39"/>
+                    <ShortcutMedia title="Everyday Favorites" picture="ab67706f000000030c393859070362b66bcfd973"/>
+                    <ShortcutMedia title="Be Lifted" picture="ab67706f00000003c013947496a63419afb56975"/>
+                    <ShortcutMedia title="Traffic jam Naija" picture="ab67706f000000031a6672f7d6e8d1533efe714f"/>
+                    <ShortcutMedia title="Hot Nigerian Hits" picture="ab67706f000000038a297f39f7abf2ed223335ba"/>
                 </div>
             </div>
             <div className="lg:mb-10 mb-4">
@@ -20,7 +25,7 @@ function Feed() {
                         <h3 className="uppercase font-semibold cursor-pointer text-xs lg:text-sm tracking-wide hover:underline hover:text-white transition-all duration-200 lg:mt-8 mt-2 hidden lg:block">See All</h3>
                     </div>
                 </div>
-                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:grid lg:grid-cols-5 lg:gap-6 flex lg:space-x-0 space-x-5 lg:overflow-x-hidden overflow-y-hidden  overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
+                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:flex lg:space-x-42 flex space-x-5 lg:overflow-x-hidden overflow-y-hidden  overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
                     <div><Mediacard year="2021" picture="ab67616d0000b273b87ac71d440973d20f4c8473" title="Chilombo" artist="Jhené Aiko" /></div>
                     <div><Mediacard year="2020" title="After Hours" artist="The Weeknd" picture="ab67616d0000b2738863bc11d2aa12b54f5aeb36"/></div>
                     <div><Mediacard year="2021" title="Chemtrails Over The Country Club" artist="Lana Del Rey" picture="ab67616d0000b273e77203dd587322b5f2ddd3f4"/></div>
@@ -30,7 +35,7 @@ function Feed() {
                 </div>
                 
             </div>
-            <div className="lg:mb-10 mb-4">
+            <div className="lg:mb-10 mb-4">     
                 <div className="flex justify-between">
                     <div>
                         <h1 className="text-white text-lg lg:text-2xl font-semibold">Gospel Hits</h1>
@@ -40,7 +45,7 @@ function Feed() {
                         <h3 className="uppercase font-semibold cursor-pointer text-xs lg:text-sm tracking-wide hover:underline hover:text-white transition-all duration-200 lg:mt-8 mt-2 hidden lg:block">See All</h3>
                     </div>
                 </div>
-                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:grid lg:grid-cols-5 lg:gap-6 flex lg:space-x-0 space-x-5 lg:overflow-x-hidden overflow-y-hidden  overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
+                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:flex lg:space-x-42 flex space-x-5 lg:overflow-x-hidden overflow-y-hidden overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
                     <div><Mediacard year="2021" picture="ab67706f000000035f43d01047b6589fc28b71eb" title="Fresh Gospel" artist="Jason Nelson & Others" /></div>
                     <div><Mediacard year="2021" title="Gospel Hits" artist="ZOZO Playlists" picture="ab67706c0000bebbe4a06a56f1ad47ddaa24f001"/></div>
                     <div><Mediacard year="2020" title="The Gospel of the kingdom" artist="Dunsin Oyekan" picture="ab67616d0000b2735fc41bf3e81456825c6f9a69"/></div>
@@ -59,7 +64,7 @@ function Feed() {
                         <h3 className="uppercase font-semibold cursor-pointer text-xs lg:text-sm tracking-wide hover:underline hover:text-white transition-all duration-200 lg:mt-8 mt-2 hidden lg:block ">See All</h3>
                     </div>
                 </div>
-                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:grid lg:grid-cols-5 lg:gap-6 flex lg:space-x-0 space-x-5 lg:overflow-x-hidden overflow-y-hidden overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
+                <div className="lg:py-4 w-12/12 lg:w-full h-56 lg:h-72 lg:flex lg:space-x-42 flex space-x-5 lg:overflow-x-hidden overflow-y-hidden  overflow-x-scroll whitespace-nowrap lg:last:pr-0 last:pr-4 scrollbar-hide">
                     <div><Mediacard year="2021" picture="ab6765630000ba8a67a4119f9f60a6d8336b8452" title="I Said What I Said" artist="FK and Jollz" /></div>
                     <div><Mediacard year="2021" title="The Daily Show" artist="Trevor Noah" picture="ab6765630000ba8aaea6ade0ec380e248ed00f1e"/></div>
                     <div><Mediacard year="2021" title="So Nigerian" artist="Dami Aros" picture="04fea5127aac7c43cba3ed4833a6830768fb3887"/></div>
