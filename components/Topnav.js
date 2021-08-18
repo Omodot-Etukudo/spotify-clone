@@ -1,19 +1,30 @@
 import React, {useState} from "react"
+import TopnavLink from "./TopnavLink"
+import ReactDOM from "react-dom";
+import {useLocation} from "react-router-dom"
 import MobileOptions from "./MobileOptions"
 import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
-function Topnav({className}) {
-    const [showOptions, toggleOptions] = useState(false)
+function Topnav({className, tabClass}) {
+    const [showOptions, toggleOptions] = useState(false)    
     return (       
-        <div className="top-0 bg-opacity-80 lg:fixed lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-72 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 lg:bg-gray-900 absolute ">
+        
+        <div className="top-0 bg-opacity-80 lg:fixed lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-72 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 lg:bg-main-bg absolute ">
             <div className=" w-10/12 pr-6 py-2 hidden lg:flex justify-between">
                 <div className="justify-between lg:flex hidden fixed">
                     <div className="flex py-1">
                         <div className="rounded-full mr-2 hover:cursor-pointer hover:text-white transition-all duration-300 bg-black bg-opacity-70"><ChevronLeftIcon className="h-8 w-8 p-1 " /></div>
                         <div className="rounded-full ml-1 hover:cursor-pointer hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-8 w-8 p-1 " /></div>
                     </div>
-                    <div><input placeholder="Artists, songs or podcasts" className={className}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-gray-900"/>
+                    <div><input placeholder="Artists, songs or podcasts" className={className}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-main-bg"/>
+                    <div className="flex">
+                    
+                        <TopnavLink url="/collection/playlists" title="Playlists"/>
+                        <TopnavLink url="/collection/podcasts" title="Podcasts"/>
+                        <TopnavLink title="Artists"/>
+                        <TopnavLink title="Albums"/>
+                    </div>
                 </div>
                 
                 <div className="py-0.5 hover:cursor-pointer pr-0 mr-12 right-0 w-36 max-w-32 min-w-32 ">

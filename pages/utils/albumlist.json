@@ -3,6 +3,7 @@
         "id": 1,
         "title":"Stories",
         "artist": "Avicii",
+        "art":"ab6761610000e5eb09bf4814c6585e1f69dfeef7",
         "songs":[
             {
                 "id": 1,
@@ -31,6 +32,7 @@
         "id": 2,
         "title":"Lucid",
         "artist": "Asa",
+        "art":"ab67616d00001e02f0339dfe2f66f076738d7a99",
         "songs":[
             {
                 "id": 1,

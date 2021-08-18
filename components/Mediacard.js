@@ -5,8 +5,8 @@ function Mediacard({picture, title, artist,year}) {
     
     return (
         <div className="group">
-            <div className="lg:absolute cursor-pointer w-32 lg:w-48 lg:bg-gray-900 bg-opacity-50 lg:px-4 pt-4 pb-5 flex flex-col rounded lg:group-hover:bg-gray-800 transition-colors duration-500">
-                <div className="-z-10 lg:z-auto"><Image alt={title} placeholder="blur" blurDataURL loading="lazy" className="lg:rounded lg:flex" width={220} height={220}  src={`${BASE_URL}${picture}` || `${BASE_URL2}${picture}`} /></div>
+            <div className="lg:absolute cursor-pointer w-32 lg:w-48 lg:bg-card-bg lg:shadow-xl bg-opacity-50 lg:px-4 pt-4 pb-5 flex flex-col rounded lg:group-hover:bg-card-hover transition-colors duration-500">
+                <div className="-z-10 lg:z-auto"><Image alt={title} placeholder="blur" blurDataURL loading="lazy" className="lg:rounded lg:flex lg:shadow-2xl lg:drop-shadow-2xl" width={220} height={220}  src={`${BASE_URL}${picture}` || `${BASE_URL2}${picture}`} /></div>
                 <div className="title-text">
                     <h3 className="text-sm  lg:text-base mt-2 lg:mt-4 font-semibold text-white lg:text-left text-center truncate">{title}</h3>
                 </div>

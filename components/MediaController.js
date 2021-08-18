@@ -17,7 +17,7 @@ function MediaController() {
                 mediaTileShow? <MediaTileBig/>:null
             }
             
-            <div className="w-full left-0 bg-gray-900 border-t lg:border-b-0 border-b border-gray-800 lg:py-4 py-2 fixed lg:bottom-0 bottom-14">
+            <div className="w-full left-0 bg-main-bg border-t lg:border-b-0 border-b border-card-hover lg:py-4 py-2 fixed lg:bottom-0 bottom-14">
                 
                 <div className="hidden lg:flex flex-row justify-between px-6">
                     

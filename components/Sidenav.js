@@ -12,7 +12,7 @@ function Sidenav() {
             <Image placeholder="blur" blurDataURL className="object-contain" layout="responsive" width={110} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
         </div>
         <div className="icon-items pr-4 pl-3">
-            <Link href="/"><div className="nav-link active-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
+            <Link href="/"><div className="nav-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
             
             <Link href="/search"><div className="nav-link rounded-md"><Headeritem title="Search" Icon={SearchIcon} /></div></Link>
             <Link href="/collection/playlists"><div className="nav-link rounded-md"><Headeritem title="Your Library" Icon={CollectionIcon} /></div></Link>
