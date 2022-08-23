@@ -5,3 +5,4 @@ module.exports = {
   BASE_URL: "https://i.scdn.co/image/",
   BASE_URL2:"https://lite-images-i.scdn.co/image/"
 }
+

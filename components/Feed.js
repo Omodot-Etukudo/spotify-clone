@@ -7,7 +7,7 @@ function Feed() {
             <div className="lg:mb-10 hidden lg:block">
                 <h1 className="text-white text-lg lg:text-3xl font-semibold">{greeting}</h1>
                 <div className="flex flex-wrap">
-                    <ShortcutMedia title="New Lagos Vibe feat. Show Dem Camp" picture="ab67706c0000bebb36ad4d3d19716d3d546b2997"/>
+                    <ShortcutMedia title="New Lagos Vibe feat. Show Dem Camp" picture="ab67616d00001e02fdd6a725813be0058fdb90a5"/>
                     <ShortcutMedia title="Jubilee Juneteenth Edition" picture="ab67616d0000b2732ed45ea1c204bb155e363e39"/>
                     <ShortcutMedia title="Everyday Favorites" picture="ab67706f000000030c393859070362b66bcfd973"/>
                     <ShortcutMedia title="Be Lifted" picture="ab67706f00000003c013947496a63419afb56975"/>
