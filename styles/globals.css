@@ -10,7 +10,7 @@
     @apply bg-gradient-to-b from-gray-800 via-main-bg to-main-bg text-gray-400;
   }
   body::-webkit-scrollbar {
-    @apply lg:w-3 lg:bg-gradient-to-b from-main-bg via-main-bg to-main-bg lg:block hidden;
+    @apply lg:w-2 lg:bg-gradient-to-b from-gray-900 via-main-bg to-main-bg bg-opacity-0 lg:block hidden lg:px-1;
   }
   body::-webkit-scrollbar-corner {
     @apply lg:h-full;

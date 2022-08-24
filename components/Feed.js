@@ -3,7 +3,7 @@ import ShortcutMedia from "./ShortcutMedia";
 import greeting from "/getTime";
 function Feed() {
     return (
-        <div className="h-full lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-6 lg:from-gray-900 lg:via-gray-900 lg:to-black bg-auto bg-fixed">
+        <div className="h-full lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-6  bg-auto bg-fixed">
             <div className="lg:mb-10 lg:flex lg:flex-col lg:space-y-6 hidden">
                 <h1 className="text-white text-md lg:text-2xl font-semibold">{greeting}</h1>
                 <div className="flex flex-wrap gap-3.5">

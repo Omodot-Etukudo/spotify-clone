@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import MediaController from '../components/MediaController'
 import Mobilenav from '../components/Mobilenav'
 import Sidenav from '../components/Sidenav'
@@ -11,7 +10,7 @@ export default function Home() {
     <div className="font-vietnam" >
       <Head>
         <title>Clone &#8211; Web Player</title>
-        <meta name="description" content="Spotify Clone" />
+        <meta name="description" content="Spotify Clone" author="Omodot EtukudoS" />
         <link rel="icon" href="/spotify.ico" />
       </Head>
       {/*Bottom Nav*/}

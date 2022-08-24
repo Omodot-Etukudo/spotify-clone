@@ -31,7 +31,7 @@ function SearchComponent() {
                             <Allgenres title="Lo-Fi" background="rounded-lg bg-gradient-to-br from-gray-800 via-gray-500 to-gray-500 " image="ab67706f000000035bfa4d6bec505c7a2634cc69"/>
                             <Allgenres title="Afro" background="rounded-lg bg-gradient-to-br from-red-900 via-red-700 to-gray-500 " image="ab67616d00001e024f4281b156c3b060dfba5d96"/>
                             <Allgenres title="Mood Boosters" background="rounded-lg bg-gradient-to-br from-yellow-400 via-yellow-300 to-yellow-300 " image="ab67706f00000003a7c67b2368e91a3add3b91d6"/>
-                            <Allgenres title="Focus" background="rounded-lg bg-gradient-to-br from-purple-900 via-purple-800 to-gray-800 " image="ab67706f000000033e0130fcd5d106f1402b4707"/>
+                            <Allgenres title="Focus" background="rounded-lg bg-gradient-to-br from-gray-900 via-purple-800 to-gray-800 " image="ab67706f000000033e0130fcd5d106f1402b4707"/>
                             <Allgenres title="Throwback" background="rounded-lg bg-gradient-to-br from-blue-500 via-blue-300 to-gray-300 " image="ab67706f000000032612242cb6f026ca7a274dde"/>
                             <Allgenres title="Dance & Electronic" background="rounded-lg bg-gradient-to-br from-red-900 via-pink-800 to-pink-800 " image="ab67706f00000003470dd505fcf08e4693db9b24"/>
                             <Allgenres title="Wellness" background="rounded-lg bg-gradient-to-br from-purple-600 via-purple-500 to-red-200 " image="ab67706f00000003ec69f78942a99131ab104df5" />
