@@ -9,7 +9,7 @@ function PlaylistComponent() {
                     <MusicNoteIcon className="lg:w-20 lg:h-20"/>
                     <div className="flex flex-col space-y-2 items-center">
                         <h3 className="text-3xl text-white font-bold">Create your first playlist</h3>
-                        <p className="mb-10 text-white">It's easy, we'll help you.</p>
+                        <p className="mb-10 text-white">It&apos;s easy, we&apos;ll help you.</p>
                     </div>
                     
                     <PrimaryButton title="create playlist"/>

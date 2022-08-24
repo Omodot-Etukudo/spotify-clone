@@ -1,5 +1,5 @@
 import albumlist from "../utils/albumlist.json"
-import message from "../utils/getTime"
+import message from "../../getTime"
 import Image from "next/image"
 import { BASE_URL, BASE_URL2 } from "../../next.config"
 function albums() {
@@ -12,7 +12,7 @@ function albums() {
                     <div className="border-2 mt-10 flex flex-col p-4" key={albumDetail.id}>
                         
                         <div className="flex space-x-2 mb-4">
-                            <Image className="rounded-full justify-center" width={50} height={50} src={`${BASE_URL}${albumDetail.art}`} loading="lazy" />
+                            <Image alt={`${albumDetail.title}}`} className="rounded-full justify-center" width={50} height={50} src={`${BASE_URL}${albumDetail.art}`} loading="lazy" />
                             <div className="flex-col mt-1">
                                 <h1 className="font-semibold text-base">{albumDetail.title}</h1>
                                 <h1 className="font-light text-sm">{albumDetail.artist}</h1>

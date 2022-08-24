@@ -24,7 +24,7 @@ function MediaController() {
                     <div>
                         <div className=" flex justify-between">
                             <div className="absolute group">
-                                <Image className="rounded-sm drop-shadow-2xl group-hover:brightness-75 shadow-2xl lg:z-10" src={`${BASE_URL}${"ab67616d0000b27327b8470985bb498d4fd8cee3"}`} width={55} height={55} loading="lazy"></Image>
+                                <Image alt="media-cover" className="rounded-sm drop-shadow-2xl group-hover:brightness-75 shadow-2xl lg:z-10" src={`${BASE_URL}${"ab67616d0000b27327b8470985bb498d4fd8cee3"}`} width={55} height={55} loading="lazy"></Image>
                                 <div onClick={()=>toggleTile(!mediaTileShow)} className="relative group-hover:block hidden -top-14 p-1 w-6 left-7 lg:z-50 rounded-full bg-black hover:scale-110 transition-transform duration-100 black bg-opacity-70 hover:text-white"><ChevronUpIcon className="  w-4 h-4"/></div>
                             </div>
                             

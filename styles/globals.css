@@ -19,7 +19,7 @@
     @apply lg:h-2 hidden;
   }
   body::-webkit-scrollbar-thumb {
-    @apply lg:bg-card-hover lg:block hidden;
+    @apply lg:bg-card-hover lg:block hidden rounded-3xl ;
   }
   .slider::-webkit-slider-runnable-track {
     @apply rounded-xl;
