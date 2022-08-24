@@ -13,7 +13,7 @@ function SearchComponent() {
                     </div>
                     <div className="flex space-x-6 h-60 overflow-y-hidden overflow-x-scroll whitespace-nowrap scrollbar-hide">
                         <Topgenres title="R&B" image="ab67706f000000032b29b4a26e620ccd2bd2d2f8" background="cursor-pointer bg-gradient-to-r from-pink-500 via-pink-400 to-pink-400 " />
-                        <Topgenres title="Christian and Gospel" image="ab67706f00000003c5f9db40ec3aa9a7f8db6693" background="cursor-pointer bg-gradient-to-r from-blue-500 via-blue-500 to-blue-400" />
+                        <Topgenres title="Christian & gospel" image="ab67706f00000003c5f9db40ec3aa9a7f8db6693" background="cursor-pointer bg-gradient-to-r from-blue-500 via-blue-500 to-blue-400" />
                         <Topgenres title="Hip-hop" image="ab67706f000000036c6ca524605c48d9842fec9e" background="cursor-pointer bg-gradient-to-r from-yellow-700 via-yellow-600 to-yellow-600" /> 
                         <Topgenres title="Pop" image="ab67706f00000003f336332699dd46ae4396e15f" background="bg-gradient-to-r cursor-pointer  from-purple-800 via-purple-700 to-purple-600" />
                         
