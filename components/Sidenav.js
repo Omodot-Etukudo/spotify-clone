@@ -1,4 +1,5 @@
-import {HomeIcon , SearchIcon , CollectionIcon ,HeartIcon, PlusIcon, DownloadIcon, UserIcon, LinkIcon,} from "@heroicons/react/outline"
+import {SearchIcon , CollectionIcon , DownloadIcon, UserIcon, LinkIcon,} from "@heroicons/react/outline"
+import {HomeIcon, PlusCircleIcon, HeartIcon} from "@heroicons/react/solid"
 import Image from 'next/image'
 import Headeritem from './Headeritem'   
 import Link from 'next/link'
@@ -17,14 +18,14 @@ function Sidenav() {
                     <div className="icon-items">
                         <Link passHref  href="/"><div className="nav-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
                         
-                        <Link passHref  href="/search"><div className="nav-link rounded-md"><Headeritem title="Search" Icon={SearchIcon} /></div></Link>
+                        <Link passHref  href="/search"><div className="nav-link rounded-md"><Headeritem  title="Search" Icon={SearchIcon} /></div></Link>
                         <Link passHref  href="/collection/playlists"><div className="nav-link rounded-md"><Headeritem title="Your Library" Icon={CollectionIcon} /></div></Link>
                         
                     </div>
 
                     <div className="icon-items mt-6 w-full pb-2">
-                        <div className="nav-link rounded-md"><Headeritem title="Create Playlist" Icon={PlusIcon} /></div>
-                        <div className="nav-link rounded-md"><Headeritem title="Liked Songs" Icon={HeartIcon} /></div>
+                        <div className="nav-link rounded-md"><Headeritem title="Create Playlist" Icon={PlusCircleIcon} /></div>
+                        <div className="nav-link rounded-md"><Headeritem isLike title="Liked Songs" Icon={HeartIcon} /></div>
                
                     </div>
                 </div>    

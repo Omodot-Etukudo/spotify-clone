@@ -16,7 +16,7 @@ function Feed() {
                 </div>
             </div>
             
-            <div className="flex flex-col justify-start items-start w-full">
+            <div className="flex flex-col justify-start space-y-8 items-start w-full">
                 <div className="flex flex-col space-y-4 justify-start items-start w-full">
                     <div className="flex flex-row justify-between items-center w-full"><h2 className="text-white text-md lg:text-xl font-semibold">Recently Played</h2><h3 className="text-xs uppercase text-gray-300 hover:underline transition-all duration-150">See All</h3></div>
                     <div className="w-full flex space-x-3.5">

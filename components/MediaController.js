@@ -50,7 +50,7 @@ function MediaController() {
                         </div>
                         <div className="flex space-x-2 px-24">
                             <h1 className="text-xs my-auto">0:00</h1>
-                            <input readOnly type="range" min="1" max="100" value="0" className="ml-2 h-1 w-110 my-2 slider" />
+                            <input readOnly  type="range" min="1" max="100" value="60" className="ml-2 h-1 w-110 my-2 slider bg-spotify-green bg-transparent" />
                             <h1 className="text-xs my-auto">4:30</h1>
                         </div>
                     </div>
