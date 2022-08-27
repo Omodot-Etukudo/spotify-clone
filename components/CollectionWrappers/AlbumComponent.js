@@ -1,4 +1,5 @@
-function PodcastComponent() {
+
+function AlbumComponent() {
     return (
         <div>
             
@@ -6,4 +7,4 @@ function PodcastComponent() {
     )
 }
 
-export default PodcastComponent
+export default AlbumComponent

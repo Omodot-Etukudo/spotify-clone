@@ -1,12 +1,9 @@
 import React, {useState} from "react"
 import TopnavLink from "./TopnavLink"
-import ReactDOM from "react-dom";
-import {useLocation} from "react-router-dom"
-import MobileOptions from "./MobileOptions"
 import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
-function Topnav({className, tabClass}) {
+function Topnav({isSearch,isCollection, tabClass}) {
     const [showOptions, toggleOptions] = useState(false)    
     return (       
         
@@ -17,14 +14,14 @@ function Topnav({className, tabClass}) {
                         <div className="rounded-full mr-2 hover:cursor-pointer hover:text-white transition-all duration-300 bg-black bg-opacity-70"><ChevronLeftIcon className="h-8 w-8 p-1 " /></div>
                         <div className="rounded-full ml-1 hover:cursor-pointer hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-8 w-8 p-1 " /></div>
                     </div>
-                    <div><input placeholder="Artists, songs or podcasts" className={className}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-main-bg"/>
-                    {/* <div className="flex">
+                    <div><input placeholder="Artists, songs or podcasts" className={`${isSearch?"block focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-main-bg"/>
                     
+                    <div className={`${isCollection?"flex":"hidden"}`}>
                         <TopnavLink url="/collection/playlists" title="Playlists"/>
                         <TopnavLink url="/collection/podcasts" title="Podcasts"/>
-                        <TopnavLink title="Artists"/>
-                        <TopnavLink title="Albums"/>
-                    </div> */}
+                        <TopnavLink url="/collection/artists" title="Artists"/>
+                        <TopnavLink url="/collection/albums" title="Albums"/>
+                    </div>
                 </div>
                 
                 <div className="py-0.5 hover:cursor-pointer pr-0 mr-12 right-0 w-36 max-w-32 min-w-32 ">

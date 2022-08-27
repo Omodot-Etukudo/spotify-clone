@@ -3,7 +3,7 @@ import MediaController from '../../components/MediaController'
 import Mobilenav from '../../components/Mobilenav'
 import Sidenav from '../../components/Sidenav'
 import Topnav from '../../components/Topnav'
-import PlaylistComponent from '../../components/PlaylistComponent'
+import PlaylistComponent from '../../components/CollectionWrappers/PlaylistComponent'
 function playlists() {
     return (
     <div className="font-vietnam" >
@@ -20,7 +20,7 @@ function playlists() {
       <div>
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
-          <Topnav tabClass="flex" className="hidden" />
+        <Topnav isCollection />
           <PlaylistComponent />
         </div>
         <MediaController/>

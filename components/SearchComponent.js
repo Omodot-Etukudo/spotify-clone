@@ -3,9 +3,11 @@ import MediaController from "./MediaController";
 import Allgenres from "./SearchComponents/Allgenres";
 import allgenres from "./SearchComponents/Allgenres";
 import Topgenres from "./SearchComponents/Topgenres";
+import Topnav from "./Topnav";
 function SearchComponent() {
     return (
         <div className="h-screen lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:pt-20 px-3 lg:pr-6 bg-gradient-to-b from-pink-900  via-gray-900 to-black lg:from-gray-900 lg:via-black lg:to-black">
+           
            <div className="hidden lg:block">
                <div>
                     <div className="flex lg:mb-5 ">

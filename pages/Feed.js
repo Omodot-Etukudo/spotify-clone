@@ -1,9 +1,11 @@
-import Mediacard from "./Mediacard";
-import ShortcutMedia from "./ShortcutMedia";
+import Mediacard from "../components/Mediacard";
+import ShortcutMedia from "../components/ShortcutMedia";
+import Topnav from "../components/Topnav";
 import greeting from "/getTime";
 function Feed() {
     return (
         <div className="h-full lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-6  bg-auto bg-fixed">
+            <Topnav/>
             <div className="lg:mb-10 lg:flex lg:flex-col lg:space-y-6 hidden">
                 <h1 className="text-white text-md lg:text-2xl font-semibold">{greeting}</h1>
                 <div className="flex flex-wrap gap-3.5">

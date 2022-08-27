@@ -21,7 +21,8 @@ export default function Home() {
       <div>
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
-          <Topnav className="focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular" />
+        <Topnav isSearch/>
+         
           <SearchComponent />
         </div>
       </div>
