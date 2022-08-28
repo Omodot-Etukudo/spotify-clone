@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import ArtistComponent from '../../components/CollectionWrappers/ArtistComponent'
 import PodcastComponent from '../../components/CollectionWrappers/PodcastComponent'
 import MediaController from '../../components/MediaController'
 import Mobilenav from '../../components/Mobilenav'
@@ -9,11 +10,7 @@ import Topnav from '../../components/Topnav'
 function artists() {
     return (
         <div className="font-vietnam" >
-      <Head>
-        <title>Clone &#8211; Web Player</title>
-        <meta name="description" content="Spotify Clone" />
-        <link rel="icon" href="/spotify.ico" />
-      </Head>
+      
       {/*Bottom Nav*/}
 
       <Mobilenav />
@@ -23,7 +20,7 @@ function artists() {
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
           <Topnav isCollection />
-          <PodcastComponent />
+          <ArtistComponent/>
         </div>
         <MediaController/>
       </div>

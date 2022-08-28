@@ -7,11 +7,7 @@ import Feed from './Feed'
 export default function Home() {
   return (
     <div className="font-vietnam" >
-      <Head>
-        <title>Clone &#8211; Web Player</title>
-        <meta name="description" content="Spotify Clone" author="Omodot EtukudoS" />
-        <link rel="icon" href="/spotify.ico" />
-      </Head>
+      
       {/*Bottom Nav*/}
 
       <Mobilenav />

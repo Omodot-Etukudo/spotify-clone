@@ -7,11 +7,7 @@ import AlbumComponent from '../../components/CollectionWrappers/AlbumComponent'
 function albums() {
     return (
     <div className="font-vietnam" >
-      <Head>
-        <title>Clone &#8211; Web Player</title>
-        <meta name="description" content="Spotify Clone" />
-        <link rel="icon" href="/spotify.ico" />
-      </Head>
+      
       {/*Bottom Nav*/}
 
       <Mobilenav />

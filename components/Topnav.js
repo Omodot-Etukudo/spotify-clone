@@ -16,7 +16,7 @@ function Topnav({isSearch,isCollection, tabClass}) {
                     </div>
                     <div><input placeholder="Artists, songs or podcasts" className={`${isSearch?"block focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-main-bg"/>
                     
-                    <div className={`${isCollection?"flex":"hidden"}`}>
+                    <div className={`${isCollection?"flex justify-center items-center":"hidden"}`}>
                         <TopnavLink url="/collection/playlists" title="Playlists"/>
                         <TopnavLink url="/collection/podcasts" title="Podcasts"/>
                         <TopnavLink url="/collection/artists" title="Artists"/>

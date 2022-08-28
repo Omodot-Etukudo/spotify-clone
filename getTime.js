@@ -1,18 +1,16 @@
 
-
-const myTime = new Date();
-const hours = myTime.getHours();
+const hours = new Date().getHours();
 let greeting;
 
 if(hours < 12){
-    greeting = "Good Morning";
+    greeting = "Good morning";
 }
 if(hours >= 12 && hours <= 17){
-    greeting = "Good Afternoon";
+    greeting = "Good afternoon";
 }
 if(hours >= 17 && hours <= 24)
 {
-    greeting = "Good Evening";
+    greeting = "Good evening";
 }
    
 

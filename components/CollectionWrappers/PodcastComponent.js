@@ -9,22 +9,18 @@ function PodcastComponent() {
             <div className="flex flex-col space-y-4 justify-start items-start w-full">
                 <div className="flex flex-row justify-start items-center w-full"><h2 className="text-white text-md lg:text-lg font-semibold">Podcasts</h2></div>
                 <div className="w-full flex gap-3 flex-wrap">
-                    <LikedPodcasts/>
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebbd23aad463cc52a4fa14526ac" title="Afrobeat Chill Vibes" artist="Vibe to trendy afro music" />
-                    <Mediacard isplaylist picture="ab6761610000e5ebadd503b411a712e277895c8a" title="Rap Central" artist="J Cole, NF, D Smoke, Kendrick Lamar" />
-                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="Giveon Top 20" artist="Discover hidden sounds by giveon" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
-                    <Mediacard isplaylist picture="ab67706c0000bebbd23aad463cc52a4fa14526ac" title="Afrobeat Chill Vibes" artist="Vibe to trendy afro music" />
-                    <Mediacard isplaylist picture="ab6761610000e5ebadd503b411a712e277895c8a" title="Rap Central" artist="J Cole, NF, D Smoke, Kendrick Lamar" />
-                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="Giveon Top 20" artist="Discover hidden sounds by giveon" />
-                    <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
+                    <LikedPodcasts/>             
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    <Mediacard isPodcast picture="ab6765630000ba8a269c9c597fca9835f921cf95" title="I said what I said" artist="Eggcorn Digital" />
+                    
                 </div>
                 
             </div>

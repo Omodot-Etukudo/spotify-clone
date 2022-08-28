@@ -5,7 +5,7 @@ function TopnavLink({title, url, active}) {
     return (
         
     <div className="ml-2">
-            <Link passHref href={`${url}`}><h3 onClick={()=>setActive(!isActive)} className={`font-semibold text-xs px-4 py-3 rounded-md cursor-pointer hover:bg-gray-700 text-white ${isActive ?"bg-gray-700":""}`}>{title}</h3></Link>
+            <Link passHref href={`${url}`}><h3 onClick={()=>setActive(!isActive)} className={`font-semibold text-xxs px-3 py-2 rounded-md cursor-pointer hover:bg-gray-700 text-white ${isActive ?"bg-gray-700":""}`}>{title}</h3></Link>
     </div>
         
     )

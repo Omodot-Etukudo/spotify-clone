@@ -8,11 +8,7 @@ import SearchComponent from '../components/SearchComponent'
 export default function Home() {
   return (
     <div className="font-vietnam" >
-      <Head>
-        <title>Clone</title>
-        <meta name="description" content="Spotify Clone" />
-        <link rel="icon" href="/spotify.ico" />
-      </Head>
+  
       {/*Bottom Nav*/}
 
       <Mobilenav />
