@@ -10,7 +10,7 @@ function Feed() {
                 <h1 className="text-white text-md lg:text-2xl font-semibold">{greeting}</h1>
                 <div className="flex flex-wrap gap-3.5">
                     <ShortcutMedia isNew title="New Lagos Vibe feat. Show Dem Camp" picture="ab67616d00001e02fdd6a725813be0058fdb90a5"/>
-                    <ShortcutMedia isPlaying progress={20} title="ISWIS SE04EP27 &#8217; The Guy &#8217; Episode ft MI Abaga" picture="ab6765630000ba8a269c9c597fca9835f921cf95"/>
+                    <ShortcutMedia isPlaying progress={16} title="ISWIS SE04EP27 &#8217; The Guy &#8217; Episode ft MI Abaga" picture="ab6765630000ba8a269c9c597fca9835f921cf95"/>
                     <ShortcutMedia title="Everyday Favorites" picture="ab67706f000000030c393859070362b66bcfd973"/>
                     <ShortcutMedia title="Be Lifted" picture="ab67706f00000003c013947496a63419afb56975"/>
                     <ShortcutMedia title="Traffic jam Naija" picture="ab67706f000000031a6672f7d6e8d1533efe714f"/>

@@ -1,6 +1,7 @@
 import Document, {
     Html, Head, Main, NextScript,
   } from 'next/document';
+
   
   class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -12,7 +13,6 @@ import Document, {
       return (
         <Html lang="en" >
           <Head>
-            <title>Clone &#8211; Web Player</title>
             <meta name="description" content="Spotify Clone" author="Omodot EtukudoS" />
             <link rel="icon" href="/spotify.ico" />
             <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
