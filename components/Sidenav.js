@@ -1,5 +1,5 @@
-import {SearchIcon , CollectionIcon , DownloadIcon, SpeakerphoneIcon} from "@heroicons/react/outline"
-import {HomeIcon, PlusCircleIcon, HeartIcon} from "@heroicons/react/solid"
+import {SearchIcon , CollectionIcon , DownloadIcon, SpeakerphoneIcon,HomeIcon} from "@heroicons/react/outline"
+import {PlusCircleIcon, HeartIcon} from "@heroicons/react/solid"
 import Image from 'next/image'
 import Headeritem from './Headeritem'   
 import Link from 'next/link'
@@ -31,10 +31,10 @@ function Sidenav() {
                 </div>    
                 <div>
                     <div className="flex flex-col space-y-3 text-xs pl-1 py-4 tracking-wide">
-                        <h3 className="hover:text-white transition-all cursor-default text-xxs">The Midnight Hour</h3>
-                        <h3 className="hover:text-white transition-all cursor-default text-xxs">Your Coffee Break</h3>
-                        <h3 className="hover:text-white transition-all cursor-default text-xxs">Amapiano on the rocks</h3>     
-                        <h3 className="hover:text-white transition-all cursor-default text-xxs">Amapiano on the rocks</h3>   
+                        <Link passHref  href="/playlist/ishhse78w"><h3 className="hover:text-white transition-all cursor-default text-xxs">The Midnight Hour</h3></Link>
+                        <Link passHref  href="/playlist/ishhse78w"><h3 className="hover:text-white transition-all cursor-default text-xxs">Your Coffee Break</h3></Link>
+                        <Link passHref  href="/playlist/ishhse78w"><h3 className="hover:text-white transition-all cursor-default text-xxs">Amapiano on the rocks</h3></Link>
+                        <Link passHref  href="/playlist/ishhse78w"><h3 className="hover:text-white transition-all cursor-default text-xxs">Amapiano on the rocks</h3></Link>
                     </div>
                 </div>
             </div>    

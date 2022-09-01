@@ -2,7 +2,6 @@ import PrimaryButton from "../../components/PrimaryButton"
 import {MusicNoteIcon} from "@heroicons/react/outline"
 import Mediacard from "../Mediacard"
 import LikedSongs from "../LikedSongs"
-import Topnav from "../Topnav"
 function PlaylistComponent() {
     return (
         <div className="h-screen lg:h-screen lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-20 lg:pb-60 lg:mb-40 px-3 lg:bg-main-bg">
