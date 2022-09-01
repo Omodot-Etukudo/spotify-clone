@@ -20,8 +20,8 @@ function LikedSongs() {
                     <h2 className="font-semibold text-white text-xl">Liked Songs</h2>
                     <p className="text-xs text-white">196 liked songs</p>
                 </div>  
-                <div className="lg:drop-shadow-2xl hidden lg:block group-hover:opacity-100 lg:z-20  group-hover:-top-20 opacity-0 cursor-default lg:relative -top-16 left-64 rounded-full bg-spotify-green w-10 h-10 p-2 hover:scale-110  transition-all duration-300">
-                    <PlayIcon aria-label="Play Music" className="w-6 h-6 text-white"/>
+                <div className="lg:drop-shadow-2xl shadow-2xl hidden lg:block group-hover:opacity-100 lg:z-20  group-hover:-top-20 opacity-0 cursor-default lg:relative -top-16 left-64 rounded-full bg-spotify-green w-10 h-10 p-2 hover:scale-110  transition-all duration-300">
+                    <PlayIcon aria-label="Play Music" className="w-6 h-6 text-gray-900"/>
                 </div>             
             </div>
         </div>

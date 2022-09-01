@@ -3,7 +3,7 @@ import TopnavLink from "./TopnavLink"
 import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
-function Topnav({isSearch,isCollection, tabClass}) {
+function Topnav({isSearch,isCollection}) {
     const [showOptions, toggleOptions] = useState(false)    
     return (       
         
@@ -26,9 +26,11 @@ function Topnav({isSearch,isCollection, tabClass}) {
                 
                 <div className="py-0.5 hover:cursor-pointer pr-0 mr-12 right-0 w-36 max-w-32 min-w-32 ">
                     
-                    <div onClick={()=>toggleOptions(!showOptions)} className="group bg-black bg-opacity-70 fixed right-4 text-white rounded-full flex pl-0.5 py-0.5 pr-4 hover:bg-gray-700 transition-all duration-300 w-36">
-                        <div className="rounded-full bg-opacity-50 px-0.5 py-0.5 mr-2 bg-gray-900"><UserIcon className="h-7 w-7 py-1 " /></div>
-                        <div className="py-2"><h3 className="text-xs font-bold text-center justify-self-center">_omodot_e</h3></div>
+                    <div onClick={()=>toggleOptions(!showOptions)} className="group bg-black bg-opacity-70 fixed right-4 text-white rounded-full pl-0.5 py-0.5 pr-0.5 hover:bg-gray-700 transition-all duration-300 w-28 flex justify-between items-center">
+                        <div className="flex space-x-1 justify-center items-center">
+                            <div className="rounded-full bg-opacity-50 px-0.5 py-0.5 bg-gray-900"><UserIcon className="h-6 w-6 py-1 " /></div>
+                            <div className="py-1"><h3 className="text-xs font-semibold text-center justify-self-center">Omodot</h3></div>
+                        </div>   
                         <div className="py-2 px-1"><ChevronDownIcon className="h-4 w-4" /></div>
                     </div>
 

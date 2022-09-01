@@ -10,7 +10,7 @@
     @apply bg-gradient-to-b from-gray-800 via-main-bg to-main-bg text-gray-400;
   }
   body::-webkit-scrollbar {
-    @apply lg:w-2 lg:bg-gradient-to-b from-gray-900 via-main-bg to-main-bg bg-opacity-0 lg:block hidden lg:px-1;
+    @apply lg:w-1.5 lg:bg-gradient-to-b from-gray-900 via-main-bg to-main-bg bg-opacity-0 lg:block hidden lg:px-1;
   }
   body::-webkit-scrollbar-corner {
     @apply lg:h-full;
@@ -19,7 +19,7 @@
     @apply lg:h-2 hidden;
   }
   body::-webkit-scrollbar-thumb {
-    @apply lg:bg-card-hover lg:block hidden rounded-3xl ;
+    @apply lg:bg-gray-700 lg:block hidden rounded-3xl ;
   }
   .slider::-webkit-slider-runnable-track {
     @apply rounded-xl;

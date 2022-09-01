@@ -48,7 +48,7 @@ function SearchComponent() {
             </div> 
             <div className="flex flex-col  lg:hidden">
                 
-                    <h1 className="text-white font-extrabold text-3xl mx-auto mt-16">Hi, _omodot_e</h1>
+                    <h1 className="text-white font-extrabold text-3xl mx-auto mt-16">Hi, Omodot</h1>
                     <h3 className="font-semibold text-white text-xs px-6 text-center tracking-widest mx-auto my-2 leading-5">Jump right in by searching for something you love.</h3>
                     <div className="w-full bg-white rounded-md mt-5">
                         <div className="flex flex-row justify-center py-3 space-x-1"><SearchIcon className="w-6 h-6 text-black"/><h3 className="text-black text-sm font-bold mt-0.5">Search</h3></div>

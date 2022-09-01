@@ -22,13 +22,12 @@ function Feed() {
             <div className="flex flex-col justify-start space-y-8 items-start w-full">
                 <div className="flex flex-col space-y-4 justify-start items-start w-full">
                     <div className="flex flex-row justify-between items-center w-full"><h2 className="text-white text-md lg:text-xl font-semibold">Recently Played</h2><h3 className="text-xs uppercase text-gray-300 hover:underline transition-all duration-150">See All</h3></div>
-                    <div className="w-full flex lg:justify-between md:justify-between justify-between items-center flex-wrap lg:flex-nowrap">
+                    <div className="w-full flex lg:justify-start lg:space-x-3.5 md:justify-between justify-between items-center flex-wrap lg:flex-nowrap">
                         <div><Mediacard  picture="ab67616d0000b273b87ac71d440973d20f4c8473" title="Chilombo" artist="Jhené Aiko" /></div>
                         <div><Mediacard  title="After Hours" artist="The Weeknd" picture="ab67616d0000b2738863bc11d2aa12b54f5aeb36"/></div>
                         <div><Mediacard  title="Chemtrails Over The Country Club" artist="Lana Del Rey" picture="ab67616d0000b273e77203dd587322b5f2ddd3f4"/></div>
                         <div><Mediacard  title="Somewhere between beauty and magic" artist="Joeboy" picture="ab67616d00001e0234347b639c35a6e57664fb38"/></div>
                         <div><Mediacard  title="For Broken Ears" artist="Tems" picture="ab67616d00001e020ab4d3e1c0b5c5e453287a4c"/></div>
-                        <div><Mediacard  title="Gospel Hits" artist="ZOZO Playlists" picture="ab67706f00000003ab13d877adafef46113954b6"/></div>
                         <div><Mediacard  title="Gospel Hits" artist="ZOZO Playlists" picture="ab67706f00000003ab13d877adafef46113954b6"/></div>
                     </div>
                 </div>
