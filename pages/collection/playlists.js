@@ -4,6 +4,7 @@ import Mobilenav from '../../components/Mobilenav'
 import Sidenav from '../../components/Sidenav'
 import Topnav from '../../components/Topnav'
 import PlaylistComponent from '../../components/CollectionWrappers/PlaylistComponent'
+import Footer from '../../components/Footer'
 function playlists() {
     return (
     <div className="font-vietnam" >
@@ -16,8 +17,9 @@ function playlists() {
       <div>
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
-        <Topnav isCollection />
+          <Topnav isCollection />
           <PlaylistComponent />
+          <Footer/>
         </div>
         <MediaController/>
       </div>

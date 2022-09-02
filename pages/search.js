@@ -4,6 +4,7 @@ import Mobilenav from '../components/Mobilenav'
 import Sidenav from '../components/Sidenav'
 import Topnav from '../components/Topnav'
 import SearchComponent from '../components/SearchComponent'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
       <div>
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
-        <Topnav isSearch/>
-         
+          <Topnav isSearch/>     
           <SearchComponent />
+          <Footer/>
         </div>
       </div>
      

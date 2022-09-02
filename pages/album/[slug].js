@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import LikedComponent from '../../components/CollectionWrappers/LikedComponent'
 import PodcastComponent from '../../components/CollectionWrappers/PodcastComponent'
+import DefaultAlbum from '../../components/DefaultAlbum'
+import DefaultPlaylist from '../../components/DefaultPlaylist'
 import Footer from '../../components/Footer'
 import MediaController from '../../components/MediaController'
 import Mobilenav from '../../components/Mobilenav'
@@ -21,7 +23,7 @@ function podcasts() {
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
           <Topnav />
-          <LikedComponent/>
+          <DefaultAlbum/>
           <Footer/>
         </div>
         <MediaController/>

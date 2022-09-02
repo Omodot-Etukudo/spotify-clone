@@ -6,8 +6,9 @@ import Link from 'next/link'
 import React, {useState} from "react"
 
 function Sidenav() {
+    
     return (
-    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-screen lg:min-h-full lg:w-52 fixed left-0 lg:z-50"> 
+    <div className="bg-black hidden sm:hidden md:hidden lg:block lg:h-full lg:min-h-full lg:w-52 fixed left-0 lg:z-50"> 
     <aside className="pl-4 h-5/6">
         <div className="pr-20 pt-6 pb-4">
             <Image alt="spotify-logo" placeholder="blur" blurDataURL className="object-contain" layout="responsive" width={90} height={25} src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" />
@@ -16,16 +17,16 @@ function Sidenav() {
             <div className="h-full">
                 <div className="border-b border-gray-800  w-full">
                     <div className="icon-items">
-                        <Link passHref  href="/"><div className="nav-link rounded-md"><Headeritem title="Home" Icon={HomeIcon} /></div></Link>
+                        <Headeritem linkTo={"/"} title="Home" Icon={HomeIcon} />
                         
-                        <Link passHref  href="/search"><div className="nav-link rounded-md"><Headeritem  title="Search" Icon={SearchIcon} /></div></Link>
-                        <Link passHref  href="/collection/playlists"><div className="nav-link rounded-md"><Headeritem title="Your Library" Icon={CollectionIcon} /></div></Link>
+                        <Headeritem linkTo={"/search"}  title="Search" Icon={SearchIcon} />
+                        <Headeritem linkTo={"/collection/playlists"} title="Your Library" Icon={CollectionIcon} />
                         
                     </div>
 
                     <div className="icon-items mt-6 w-full pb-2">
-                        <div className="nav-link rounded-md"><Headeritem title="Create Playlist" Icon={PlusCircleIcon} /></div>
-                        <Link passHref  href="/collection/tracks"><div className="nav-link rounded-md"><Headeritem isLike title="Liked Songs" Icon={HeartIcon} /></div></Link>
+                        <Headeritem linkTo={"#"} title="Create Playlist" Icon={PlusCircleIcon} />
+                        <Headeritem linkTo={"/collection/tracks"} isLike title="Liked Songs" Icon={HeartIcon} />
                
                     </div>
                 </div>    

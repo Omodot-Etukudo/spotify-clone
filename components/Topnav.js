@@ -1,9 +1,11 @@
 import React, {useState} from "react"
+import { useRouter } from 'next/router'
 import TopnavLink from "./TopnavLink"
 import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
 function Topnav({isSearch,isCollection}) {
+    const router = useRouter()
     const [showOptions, toggleOptions] = useState(false)    
     return (       
         
@@ -11,8 +13,8 @@ function Topnav({isSearch,isCollection}) {
             <div className=" w-10/12 pr-6 py-2 hidden lg:flex justify-between">
                 <div className="justify-between lg:flex hidden fixed">
                     <div className="flex py-1">
-                        <div className="rounded-full mr-2 hover:cursor-pointer hover:text-white transition-all duration-300 bg-black bg-opacity-70"><ChevronLeftIcon className="h-8 w-8 p-1 " /></div>
-                        <div className="rounded-full ml-1 hover:cursor-pointer hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-8 w-8 p-1 " /></div>
+                        <div onClick={router.pathname!="/"?() => router.back():null} className={`rounded-full mr-2  ${router.pathname == "/"?"text-gray-600 cursor-not-allowed":"text-gray-400 hover:text-white hover:cursor-pointer"}   transition-all duration-300 bg-black bg-opacity-70`}><ChevronLeftIcon className="h-7 w-7 p-1 " /></div>
+                        <div onClick={() => router.query.from} className="rounded-full ml-1 hover:cursor-pointer text-gray-400 hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-7 w-7 p-1 " /></div>
                     </div>
                     <div><input placeholder="Artists, songs or podcasts" className={`${isSearch?"block focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/></div><SearchIcon className="h-6 w-6 relative left-2 top-2 text-main-bg"/>
                     

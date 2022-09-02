@@ -5,7 +5,7 @@ import DefaultSongComponent from "./DefaultSongComponent"
 
 function DefaultPlaylist() {
     return (
-        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-60 lg:mb-40 px-3 lg:bg-main-bg">
+        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:bg-main-bg">
            <div className="w-full py-1 flex justify-start items-end space-x-6">
                 <div className="  w-48 h-48 flex justify-center items-center">
                     <div className="flex flex-wrap h-full w-full">
@@ -68,6 +68,7 @@ function DefaultPlaylist() {
                 </div>
 
             </div> 
+            
         </div>
     )
 }

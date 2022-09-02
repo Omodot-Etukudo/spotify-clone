@@ -7,7 +7,7 @@ import Image from "next/image"
 import DefaultSongComponent from "../DefaultSongComponent"
 function LikedComponent() {
     return (
-        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-60 lg:mb-40 px-3 lg:bg-main-bg">
+        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:bg-main-bg">
            <div className="w-full py-1 flex justify-start items-end space-x-6">
                 <div className=" bg-gradient-to-br from-purple-400 via-purple-800 to-gray-500 p-14 flex justify-center items-center">
                     <HeartIcon className="w-20 text-white" />
