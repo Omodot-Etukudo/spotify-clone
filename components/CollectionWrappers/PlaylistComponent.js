@@ -14,7 +14,7 @@ function PlaylistComponent() {
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
                     <Mediacard isplaylist picture="ab67706c0000bebbd23aad463cc52a4fa14526ac" title="Afrobeat Chill Vibes" artist="Vibe to trendy afro music" />
                     <Mediacard isplaylist picture="ab6761610000e5ebadd503b411a712e277895c8a" title="Rap Central" artist="J Cole, NF, D Smoke, Kendrick Lamar" />
-                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="Giveon Top 20" artist="Discover hidden sounds by giveon" />
+                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="This is Giveon" artist="Discover hidden sounds by giveon" />
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
@@ -24,7 +24,7 @@ function PlaylistComponent() {
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
                     <Mediacard isplaylist picture="ab67706c0000bebbd23aad463cc52a4fa14526ac" title="Afrobeat Chill Vibes" artist="Vibe to trendy afro music" />
                     <Mediacard isplaylist picture="ab6761610000e5ebadd503b411a712e277895c8a" title="Rap Central" artist="J Cole, NF, D Smoke, Kendrick Lamar" />
-                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="Giveon Top 20" artist="Discover hidden sounds by giveon" />
+                    <Mediacard isplaylist picture="ab6761610000e5eb2c0b7791c1b134d65b587e26" title="This is Giveon" artist="Discover hidden sounds by giveon" />
                     <Mediacard isplaylist picture="ab67706c0000bebb97b3a89d524422015f981265" title="Hit Rewind" artist="Listen to all the tracks you've been missing" />
                 </div>
                 

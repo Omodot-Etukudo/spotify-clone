@@ -1,5 +1,4 @@
 import Mediacard from "./Mediacard"
-import LikedSongs from "./LikedSongs"
 import {HeartIcon, PlayIcon} from "@heroicons/react/solid"
 import {ClockIcon, DotsHorizontalIcon} from "@heroicons/react/outline"
 import Image from "next/image"
@@ -9,12 +8,12 @@ function DefaultAlbum() {
         <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:bg-main-bg">
            <div className="w-full py-1 flex justify-start items-end space-x-6">
                 <div className=" w-48 h-48 flex justify-center items-center">
-                    <Image alt="Song Name"  loading="lazy" width={200} height={200} className="w-full h-full"  src="https://i.scdn.co/image/ab67616d0000b273aa5909aa78cffca935762637" />
+                    <Image alt="Song Name"  placeholder="blur" loading="lazy" blurDataURL width={200} height={200} className="w-full h-full"  src="https://i.scdn.co/image/ab67616d0000b273aa5909aa78cffca935762637" />
                 </div>
                 <div className="flex flex-col space-y-8 justify-end" >
                     <div className="flex flex-col space-y-2">
                         <h3 className="uppercase text-xxs text-white">EP</h3>
-                        <h1 className="font-semibold lg:text-6xl md:text-4xl text-2xl text-white">don&apos;t smile at me</h1>
+                        <h1 className="font-extrabold lg:text-6xl md:text-4xl text-2xl text-white">don&apos;t smile at me</h1>
                     </div>
                     <div className="flex space-x-1 justify-start items-center text-white text-xxs"><p className="font-semibold">Billie Eilish</p><span>&#183;</span><p>2017</p><span>&#183;</span><p className="text-gray-300">28 min 59 sec</p></div>
                 </div>
@@ -25,10 +24,10 @@ function DefaultAlbum() {
                         <PlayIcon aria-label="Play Music" className="w-7 h-7 text-gray-900"/>
                     </div>
                     <div>
-                        <HeartIcon className="w-10 h-10 text-gray-600" />
+                        <HeartIcon className="w-10 h-10 text-card-hover" />
                     </div>
                     <div>
-                        <DotsHorizontalIcon className="w-6 h-6 text-gray-300" />
+                        <DotsHorizontalIcon className="w-6 h-6 text-gray-200" />
                     </div>
                 </div>
                 <div className="w-full lg:pl-0 flex flex-col justify-start items-start space-y-8">

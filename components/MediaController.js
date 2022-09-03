@@ -17,21 +17,24 @@ function MediaController() {
                 mediaTileShow? <MediaTileBig/>:null
             }
             
-            <div className="w-full left-0 bg-main-bg border-t lg:border-b-0 border-b border-card-hover lg:py-4 py-2 fixed lg:bottom-0 bottom-14">
+            <div className="w-full left-0 bg-main-bg border-t lg:border-b-0 border-b border-card-hover lg:py-2 py-2 fixed lg:bottom-0 bottom-14">
                 
-                <div className="hidden lg:flex flex-row justify-between px-6">
+                <div className="hidden lg:flex flex-row justify-between items-center px-6">
                     
                     <div>
                         <div className=" flex justify-between">
-                            <div className="absolute group">
-                                <Image alt="media-cover" className="rounded-sm drop-shadow-2xl group-hover:brightness-75 shadow-2xl lg:z-10" src={`${BASE_URL}${"ab67616d0000b27327b8470985bb498d4fd8cee3"}`} width={55} height={55} loading="lazy"></Image>
-                                <div onClick={()=>toggleTile(!mediaTileShow)} className="relative group-hover:block hidden -top-14 p-1 w-6 left-7 lg:z-50 rounded-full bg-black hover:scale-110 transition-transform duration-100 black bg-opacity-70 hover:text-white"><ChevronUpIcon className="  w-4 h-4"/></div>
+                            <div className="flex space-x-1">
+                                <div className="absolute group">
+                                    <Image alt="media-cover" className="rounded-sm drop-shadow-2xl group-hover:brightness-75 shadow-2xl lg:z-10" src={`${BASE_URL}${"ab67616d0000b27327b8470985bb498d4fd8cee3"}`} width={50} height={50} loading="lazy"></Image>
+                                    <div onClick={()=>toggleTile(!mediaTileShow)} className="relative group-hover:block hidden -top-12 p-1 w-6 -right-6 lg:z-50 rounded-full bg-black hover:scale-110 transition-transform duration-100 black bg-opacity-70 hover:text-white"><ChevronUpIcon className="  w-4 h-4"/></div>
+                                </div>
+                                
+                                <div className="flex flex-col pt-3 pl-14 max-w-60 w-60 ml-4">
+                                    <h3 className="text-white text-xs cursor-pointer hover:underline transition-all duration-300 sm:truncate md:truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
+                                    <h3 className="font-light mb-2 text-xs cursor-pointer hover:text-white hover:underline transition-all duration-200">Ignis Brothers</h3>
+                                </div>
                             </div>
-                            
-                            <div className="flex flex-col pt-3 pl-14 max-w-60 w-60 ml-4">
-                                <h3 className="text-white text-xs cursor-pointer hover:underline transition-all duration-300 sm:truncate md:truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
-                                <h3 className="font-light mb-2 text-xs cursor-pointer hover:text-white hover:underline transition-all duration-200">Ignis Brothers</h3>
-                            </div>
+
                             <div className="flex space-x-3 my-auto">
                             {isLiked?<OutlinedHeart onClick={()=>toggleLike(!isLiked)}  />:null}
                             {!isLiked?<SolidHeart onClick={()=>toggleLike(!isLiked)}  />:null}
@@ -39,27 +42,27 @@ function MediaController() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-1">
+                    <div className="flex flex-col space-y-0">
                         <div className="flex space-x-3 mx-auto my-auto">
                             <SwitchHorizontalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
                             <RewindIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
-                    {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl"/> :null}
-                    {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl" /> :null}
+                                {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl"/> :null}
+                                {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl" /> :null}
                             <FastForwardIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
                             <SwitchVerticalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
                         </div>
-                        <div className="flex space-x-2 px-24">
-                            <h1 className="text-xs my-auto">0:00</h1>
-                            <input readOnly  type="range" min="1" max="100" value="60" className="ml-2 h-1 w-110 my-2 slider bg-spotify-green bg-transparent" />
-                            <h1 className="text-xs my-auto">4:30</h1>
+                        <div className="flex space-x-2 justify-center items-center px-24">
+                            <h1 className="text-xxs">0:00</h1>
+                            <input readOnly  type="range" min="1" max="100" value="60" className="ml-2 h-0.5 w-110 my-2 slider bg-spotify-green bg-transparent" />
+                            <h1 className="text-xxs">4:30</h1>
                         </div>
                     </div>
                     <div className="flex space-x-3 my-auto">
-                        <ViewListIcon className="w-5 h-5 hover:text-white transition-colors duration-300" />
-                        <DesktopComputerIcon className="w-5 h-5 hover:text-white transition-colors duration-300" />
-                        <div className="flex group">
-                            <VolumeUpIcon className="w-5 h-5 group-hover:text-white transition-colors duration-100" />
-                            <input readOnly type="range" min="1" max="100" value="90" className="ml-2 h-1 my-2 slider" />
+                        <ViewListIcon className="w-4 h-4 hover:text-white transition-colors duration-300" />
+                        <DesktopComputerIcon className="w-4 h-4 hover:text-white transition-colors duration-300" />
+                        <div className="flex group justify-center items-center">
+                            <VolumeUpIcon className="w-4 h-4 group-hover:text-white transition-colors duration-100" />
+                            <input readOnly type="range" min="1" max="100" value="90" className="ml-2 h-0.5 slider" />
                         </div>
                     </div>
                 </div>

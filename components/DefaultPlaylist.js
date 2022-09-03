@@ -1,5 +1,5 @@
 import {HeartIcon, PlayIcon, } from "@heroicons/react/solid"
-import {ClockIcon, DotsHorizontalIcon} from "@heroicons/react/outline"
+import {ClockIcon, DotsHorizontalIcon, PencilAltIcon} from "@heroicons/react/outline"
 import Image from "next/image"
 import DefaultSongComponent from "./DefaultSongComponent"
 
@@ -7,18 +7,19 @@ function DefaultPlaylist() {
     return (
         <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:bg-main-bg">
            <div className="w-full py-1 flex justify-start items-end space-x-6">
-                <div className="  w-48 h-48 flex justify-center items-center">
+                <div className="  w-48 h-48 group">
                     <div className="flex flex-wrap h-full w-full">
                         <Image alt="Song Name"  loading="lazy" width={95} height={95} className="w-1/2 h-1/2"  src="https://i.scdn.co/image/ab67616d0000b273134fdccfc042e4725cbfd15e" />
                         <Image alt="Song Name"  loading="lazy" width={95} height={95} className="w-1/2 h-1/2"  src="https://i.scdn.co/image/ab67616d0000b273134fdccfc042e4725cbfd15e" />
                         <Image alt="Song Name"  loading="lazy" width={95} height={95} className="w-1/2 h-1/2"  src="https://i.scdn.co/image/ab67616d0000b273134fdccfc042e4725cbfd15e" />
                         <Image alt="Song Name"  loading="lazy" width={95} height={95} className="w-1/2 h-1/2"  src="https://i.scdn.co/image/ab67616d0000b273134fdccfc042e4725cbfd15e" />
                     </div>
+                    
                 </div>
                 <div className="flex flex-col space-y-8 justify-end" >
                     <div className="flex flex-col space-y-2">
                         <h3 className="uppercase text-xxs text-white">Playlist</h3>
-                        <h1 className="font-semibold lg:text-6xl md:text-4xl text-2xl text-white">Amapiano on the rocks</h1>
+                        <h1 className="font-extrabold lg:text-6xl md:text-4xl text-2xl text-white">Amapiano on the rocks</h1>
                     </div>
                     <div className="flex space-x-1 justify-start items-center text-white text-xxs"><p className="font-semibold">Omodot</p><span>&#183;</span><p>97 Songs</p><span>&#183;</span><p>2 hr 25 min</p></div>
                 </div>

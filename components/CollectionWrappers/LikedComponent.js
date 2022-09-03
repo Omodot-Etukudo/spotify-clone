@@ -15,7 +15,7 @@ function LikedComponent() {
                 <div className="flex flex-col space-y-8 justify-end" >
                     <div className="flex flex-col space-y-2">
                         <h3 className="uppercase text-xxs text-white">Playlist</h3>
-                        <h1 className="font-semibold lg:text-6xl md:text-4xl text-2xl text-white">Liked Songs</h1>
+                        <h1 className="font-extrabold lg:text-6xl md:text-4xl text-2xl text-white">Liked Songs</h1>
                     </div>
                     <div className="flex space-x-1 justify-start items-center text-white text-xxs"><p className="font-semibold">Omodot</p><span>&#183;</span><p>97 Songs</p></div>
                 </div>
