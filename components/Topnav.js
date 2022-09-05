@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import { useRouter } from 'next/router'
 import TopnavLink from "./TopnavLink"
 import MobileSettingsButton from "../components/MobileSettingsButton"
@@ -6,17 +6,27 @@ import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
 function Topnav({isSearch,isCollection}) {
     const router = useRouter()
-    const [showOptions, toggleOptions] = useState(false)    
-    return (       
-        
-        <div className="top-0 bg-opacity-80 lg:fixed lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-56 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 lg:bg-main-bg absolute ">
-            <div className=" w-10/12 pr-6 py-2 hidden lg:flex justify-between">
-                <div className="justify-between lg:flex hidden fixed">
-                    <div className="flex py-1">
-                        <div onClick={router.pathname!="/"?() => router.back():null} className={`rounded-full mr-2  ${router.pathname == "/"?"text-gray-600 cursor-not-allowed":"text-gray-400 hover:text-white hover:cursor-pointer"}   transition-all duration-300 bg-black bg-opacity-70`}><ChevronLeftIcon className="h-7 w-7 p-1 " /></div>
-                        <div onClick={() => router.query.from} className="rounded-full ml-1 hover:cursor-pointer text-gray-400 hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-7 w-7 p-1 " /></div>
+    const [showOptions, toggleOptions] = useState(false)   
+    const [getScroll, setScroll] = useState(false); 
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+          setScroll(window.scrollY > 10)
+        })
+      }, [])
+    return (             
+        <div className={`top-0 bg-opacity-80 lg:fixed lg:z-40 left-0 lg:bg-opacity-95 px-5 lg:pl-56 w-full min-w-full h-14 lg:h-14 lg:min-h-14 lg:max-h-14 ${getScroll ?"lg:bg-black transition-all duration-150 delay-75":"lg:bg-none"} absolute`}>
+            <div className=" w-10/12 pr-6 py-2 hidden lg:flex justify-between items-start">
+                <div className="lg:flex justify-center space-x-4 items-center hidden fixed">
+                    <div className="flex justify-center items-center space-x-2">
+                        <div className="flex justify-center items-center pt-1">
+                            <div onClick={router.pathname!="/"?() => router.back():null} className={`rounded-full mr-2  ${router.pathname == "/"?"text-gray-600 cursor-not-allowed":"text-gray-400 hover:text-white hover:cursor-pointer"}   transition-all duration-300 bg-black bg-opacity-70`}><ChevronLeftIcon className="h-7 w-7 p-1 " /></div>
+                            <div onClick={() => router.query.from} className="rounded-full ml-1 hover:cursor-pointer text-gray-400 hover:text-white transition-all duration-300 mr-4 bg-black bg-opacity-70"><ChevronRightIcon className="h-7 w-7 p-1 " /></div>
+                        </div>
+                        <div>
+                            <input placeholder="What do you want to listen to?" className={`${isSearch?"block focus:outline-none absolute text-xxs pl-8 h-8 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/>
+                            <SearchIcon className={`${isSearch?"h-5 w-5 relative left-2 top-1.5 text-main-bg":"hidden"}`}/>
+                        </div>
                     </div>
-                    <div><input placeholder="Artists, songs or podcasts" className={`${isSearch?"block focus:outline-none absolute text-xs pl-10 h-10 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/></div><SearchIcon className={`${isSearch?"h-6 w-6 relative left-2 top-2 text-main-bg":"hidden"}`}/>
                     
                     <div className={`${isCollection?"flex justify-center items-center":"hidden"}`}>
                         <TopnavLink url="/collection/playlists" title="Playlists"/>
