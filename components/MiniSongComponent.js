@@ -13,7 +13,7 @@ function MiniSongComponent() {
                         <p className="block group-hover:hidden text-xxs font-light">1</p> <PlayIcon className="w-4 h-4 text-gray-100 hidden group-hover:block" /> 
                     </div>
                     <div className="flex space-x-3 items-center justify-start">
-                        <Image alt="Song Name"  loading="lazy" width={30} height={30} className="rounded-sm"  src="https://i.scdn.co/image/ab67616d0000b273134fdccfc042e4725cbfd15e" />
+                        <Image alt="Song Name"  loading="lazy" width={30} height={30} className="rounded-sm"  src="https://i.scdn.co/image/ab6761610000e5eba0e4780f120345edddeaada9" />
                         <p className="text-xs text-gray-100">Wish You Were Here &#40;feat. Khalid&#41;</p>
                     </div>
                 </div>

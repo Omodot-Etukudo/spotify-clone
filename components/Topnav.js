@@ -10,7 +10,7 @@ function Topnav({isSearch,isCollection}) {
     const [getScroll, setScroll] = useState(false); 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-          setScroll(window.scrollY > 10)
+          setScroll(window.scrollY > 100)
         })
       }, [])
     return (             
