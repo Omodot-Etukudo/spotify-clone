@@ -1,16 +1,16 @@
-import LikedComponent from '../../components/CollectionWrappers/LikedComponent'
+import DefaultArtist from '../../components/DefaultArtist'
+import DefaultTrack from '../../components/DefaultTrack'
 import Footer from '../../components/Footer'
 import MediaController from '../../components/MediaController'
 import Mobilenav from '../../components/Mobilenav'
 import Sidenav from '../../components/Sidenav'
 import Topnav from '../../components/Topnav'
 
-function tracks() {
+function track() {
     return (
-        <div className="font-vietnam" >
+    <div className="font-vietnam" >
      
       {/*Bottom Nav*/}
-
       <Mobilenav />
 
       {/*Side Nav*/}
@@ -18,7 +18,7 @@ function tracks() {
         <div className="lg:grid lg:col-span-2"><Sidenav/></div>
         <div className="lg:grid lg:col-span-9">
           <Topnav />
-          <LikedComponent/>
+          <DefaultTrack/>
           <Footer/>
         </div>
         <MediaController/>
@@ -29,4 +29,4 @@ function tracks() {
     )
 }
 
-export default tracks
+export default track

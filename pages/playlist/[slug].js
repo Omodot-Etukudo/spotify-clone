@@ -9,7 +9,7 @@ import Mobilenav from '../../components/Mobilenav'
 import Sidenav from '../../components/Sidenav'
 import Topnav from '../../components/Topnav'
 
-function podcasts() {
+function playlist() {
     return (
         <div className="font-vietnam" >
      
@@ -33,4 +33,4 @@ function podcasts() {
     )
 }
 
-export default podcasts
+export default playlist
