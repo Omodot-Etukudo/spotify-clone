@@ -17,7 +17,7 @@ function MediaController() {
                 mediaTileShow? <MediaTileBig/>:null
             }
             
-            <div className="w-full left-0 bg-main-bg border-t lg:border-b-0 border-b border-card-hover lg:py-2 py-2 fixed lg:bottom-0 bottom-14">
+            <div className="w-full left-0 dark:bg-main-bg bg-gray-100 border-t lg:border-b-0 border-b dark:border-card-hover border-gray-200 lg:py-2 py-2 fixed lg:bottom-0 bottom-14">
                 
                 <div className="hidden lg:flex flex-row justify-between items-center px-6">
                     
@@ -30,26 +30,26 @@ function MediaController() {
                                 </div>
                                 
                                 <div className="flex flex-col pt-3 pl-14 max-w-60 w-60 ml-4">
-                                    <h3 className="text-white text-xs cursor-pointer hover:underline transition-all duration-300 sm:truncate md:truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
-                                    <h3 className="font-light mb-2 text-xs cursor-pointer hover:text-white hover:underline transition-all duration-200">Ignis Brothers</h3>
+                                    <h3 className="dark:text-white text-black text-xs cursor-pointer hover:underline transition-all duration-300 sm:truncate md:truncate whitespace-nowrap">Time Go Come (feat. Phlow)</h3>
+                                    <h3 className="font-light mb-2 text-xs cursor-pointer dark:hover:text-white dark:text-gray-300 text-gray-700 hover:text-gray-500 hover:underline transition-all duration-200">Ignis Brothers</h3>
                                 </div>
                             </div>
 
                             <div className="flex space-x-3 my-auto">
                             {isLiked?<OutlinedHeart onClick={()=>toggleLike(!isLiked)}  />:null}
                             {!isLiked?<SolidHeart onClick={()=>toggleLike(!isLiked)}  />:null}
-                               <ViewGridIcon className="w-4 h-4 hover:text-white transition-colors duration-300"/>
+                               <ViewGridIcon className="w-4 h-4 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300"/>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col space-y-0">
                         <div className="flex space-x-3 mx-auto my-auto">
-                            <SwitchHorizontalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
-                            <RewindIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
-                                {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl"/> :null}
-                                {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 text-white hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl" /> :null}
-                            <FastForwardIcon className="w-5 h-5 my-auto hover:text-white transition-colors duration-100"/>
-                            <SwitchVerticalIcon className="w-4 h-4 my-auto hover:text-white transition-colors duration-100" />
+                            <SwitchHorizontalIcon className="w-4 h-4 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100" />
+                            <RewindIcon className="w-5 h-5 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100"/>
+                            {isPaused?<PlayIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 dark:text-gray-300 text-card-hover hover:text-gray-500 dark:hover:text-gray-300 hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl"/> :null}
+                            {!isPaused?<PauseIcon onClick={()=>togglePlay(!isPaused)} className="w-10 h-10 dark:text-gray-300 text-card-hover hover:text-gray-500 dark:hover:text-gray-300 hover:scale-110 transition-all duration-100 shadow-2xl drop-shadow-2xl" /> :null}
+                            <FastForwardIcon className="w-5 h-5 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100"/>
+                            <SwitchVerticalIcon className="w-4 h-4 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100" />
                         </div>
                         <div className="flex space-x-2 justify-center items-center px-24">
                             <h1 className="text-xxs">0:00</h1>
@@ -58,10 +58,10 @@ function MediaController() {
                         </div>
                     </div>
                     <div className="flex space-x-3 my-auto">
-                        <ViewListIcon className="w-4 h-4 hover:text-white transition-colors duration-300" />
-                        <DesktopComputerIcon className="w-4 h-4 hover:text-white transition-colors duration-300" />
+                        <ViewListIcon className="w-4 h-4 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300" />
+                        <DesktopComputerIcon className="w-4 h-4 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300" />
                         <div className="flex group justify-center items-center">
-                            <VolumeUpIcon className="w-4 h-4 group-hover:text-white transition-colors duration-100" />
+                            <VolumeUpIcon className="w-4 h-4 group-dark:text-gray-300 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100" />
                             <input readOnly type="range" min="1" max="100" value="90" className="ml-2 h-0.5 slider" />
                         </div>
                     </div>

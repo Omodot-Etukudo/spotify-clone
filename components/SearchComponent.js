@@ -6,12 +6,12 @@ import Topgenres from "./SearchComponents/Topgenres";
 import Topnav from "./Topnav";
 function SearchComponent() {
     return (
-        <div className="h-screen lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:pt-20 px-3 lg:pr-6 bg-main-bg">
+        <div className="h-screen lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:pt-20 px-3 lg:pr-6">
            
            <div className="hidden lg:block">
                <div>
                     <div className="flex lg:mb-5 ">
-                        <h2 className="text-white text-lg lg:text-xl font-semibold">Your top genres</h2>
+                        <h2 className="dark:text-white text-main-bg text-lg lg:text-xl font-semibold">Your top genres</h2>
                     </div>
                     <div className="flex space-x-6 h-60 overflow-y-hidden overflow-x-scroll whitespace-nowrap scrollbar-hide">
                         <Topgenres title="R&B" image="ab67706f000000032b29b4a26e620ccd2bd2d2f8" background="cursor-pointer bg-gradient-to-r from-pink-500 via-pink-400 to-pink-400 " />
@@ -24,7 +24,7 @@ function SearchComponent() {
                </div>
                <div className="">
                     <div className="flex mb-5">
-                        <h2 className="text-white text-lg lg:text-xl font-semibold">Browse all</h2>
+                        <h2 className="dark:text-white text-main-bg text-lg lg:text-xl font-semibold">Browse all</h2>
                         
                     </div>
                         <div className="flex flex-wrap gap-0">

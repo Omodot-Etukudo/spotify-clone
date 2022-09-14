@@ -5,17 +5,17 @@ import Image from "next/image"
 import DefaultSongComponent from "./DefaultSongComponent"
 function DefaultAlbum() {
     return (
-        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:bg-main-bg">
+        <div className="flex flex-col space-y-6 h-screen lg:h-full lg:w-full lg:pl-56 lg:pr-6 lg:max-w-full max-w-full min-w-full py-20 lg:pt-16 lg:pb-6 lg:mb-10 px-3 lg:dark:bg-main-bg bg-white">
            <div className="w-full py-1 flex justify-start items-end space-x-6">
                 <div className=" w-48 h-48 flex justify-center items-center">
                     <Image alt="Song Name"  placeholder="blur" loading="lazy" blurDataURL width={200} height={200} className="w-full h-full"  src="https://i.scdn.co/image/ab67616d0000b273aa5909aa78cffca935762637" />
                 </div>
-                <div className="flex flex-col space-y-8 justify-end" >
+                <div className="flex flex-col space-y-8 justify-end dark:text-white text-main-bg" >
                     <div className="flex flex-col space-y-2">
-                        <h3 className="uppercase text-xxs text-white">EP</h3>
-                        <h1 className="font-extrabold lg:text-6xl md:text-4xl text-2xl text-white">don&apos;t smile at me</h1>
+                        <h3 className="uppercase text-xxs ">EP</h3>
+                        <h1 className="font-extrabold lg:text-6xl md:text-4xl text-2xl ">don&apos;t smile at me</h1>
                     </div>
-                    <div className="flex space-x-1 justify-start items-center text-white text-xxs"><p className="font-semibold">Billie Eilish</p><span>&#183;</span><p>2017</p><span>&#183;</span><p className="text-gray-300">28 min 59 sec</p></div>
+                    <div className="flex space-x-1 justify-start items-center  text-xxs"><p className="font-semibold">Billie Eilish</p><span>&#183;</span><p>2017</p><span>&#183;</span><p className="dark:text-gray-300 text-main-bg">28 min 59 sec</p></div>
                 </div>
            </div>
            <div className="flex flex-col space-y-4 justify-start items-start">
@@ -24,19 +24,19 @@ function DefaultAlbum() {
                         <PlayIcon aria-label="Play Music" className="w-7 h-7 text-gray-900"/>
                     </div>
                     <div>
-                        <HeartIcon className="w-10 h-10 text-card-hover" />
+                        <HeartIcon className="w-10 h-10 dark:text-card-hover text-gray-300" />
                     </div>
                     <div>
-                        <DotsHorizontalIcon className="w-6 h-6 text-gray-200" />
+                        <DotsHorizontalIcon className="w-6 h-6 dark:text-gray-200 text-gray-700" />
                     </div>
                 </div>
                 <div className="w-full lg:pl-0 flex flex-col justify-start items-start space-y-8">
                     <table className="w-full pl-4">
-                        <thead className="uppercase border-b border-card-hover lg:sticky lg:top-14 bg-main-bg z-10 bg-opacity-95">
+                        <thead className="uppercase border-b dark:border-card-hover border-gray-200 lg:sticky lg:top-14 dark:bg-main-bg bg-white z-10 bg-opacity-95 dark:text-gray-300 text-main-bg">
                             <tr>
                                 <th className="font-light text-xxs pb-2 text-left pl-3 pr-5 w-6 ">#</th>
                                 <th className="font-light text-xxs pb-2 text-left lg:w-11/12">Title</th>
-                                <th className="font-light text-xxs pb-2 text-center pl-12 pr-0"><ClockIcon className="w-4 h-4 text-gray-200"  /></th>
+                                <th className="font-light text-xxs pb-2 text-center pl-12 pr-0"><ClockIcon className="w-4 h-4"  /></th>
                             </tr>
                         </thead>
                         &nbsp; 
@@ -54,7 +54,7 @@ function DefaultAlbum() {
                             <DefaultSongComponent isAlbum/>
                         </tbody>
                     </table>
-                    <p className="text-xxs text-gray-300">December 22, 2017</p>
+                    <p className="text-xxs dark:text-gray-300 text-main-bg">December 22, 2017</p>
                 </div>
 
             </div> 

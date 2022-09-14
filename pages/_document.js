@@ -11,7 +11,7 @@ import Document, {
   
     render() {
       return (
-        <Html lang="en" >
+        <Html className='dark bg-white  ' lang="en" >
           <Head>
             <meta name="description" content="Spotify Clone" author="Omodot EtukudoS" />
             <link rel="icon" href="/spotify.ico" />
