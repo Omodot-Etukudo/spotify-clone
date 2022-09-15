@@ -22,8 +22,8 @@ function Topnav({isSearch,isCollection}) {
                 <div className="lg:flex justify-center space-x-4 items-center hidden fixed">
                     <div className="flex justify-center items-center space-x-2">
                         <div className="flex justify-center items-center pt-1">
-                            <div onClick={router.pathname!="/"?() => router.back():null} className={`rounded-full mr-2  ${router.pathname == "/"?"text-gray-600 cursor-not-allowed":"text-gray-400 hover:text-white hover:cursor-pointer"}   transition-all duration-300 dark:bg-black bg-gray-300 bg-opacity-70`}><ChevronLeftIcon className="h-7 w-7 p-1 " /></div>
-                            <div onClick={() => router.query.from} className="rounded-full ml-1 hover:cursor-pointer text-gray-400 hover:text-white transition-all duration-300 mr-4 dark:bg-black bg-gray-300 bg-opacity-70"><ChevronRightIcon className="h-7 w-7 p-1 " /></div>
+                            <div onClick={router.pathname!="/"?() => router.back():null} className={`rounded-full mr-2  ${router.pathname == "/"?"text-gray-600 cursor-not-allowed":"text-gray-600 hover:text-white hover:cursor-pointer"}   transition-all duration-300 dark:bg-black bg-gray-300 bg-opacity-70`}><ChevronLeftIcon className="h-7 w-7 p-1 " /></div>
+                            <div className="rounded-full ml-1 hover:cursor-pointer text-gray-600 hover:text-white transition-all duration-300 mr-4 dark:bg-black bg-gray-300 bg-opacity-70"><ChevronRightIcon className="h-7 w-7 p-1 " /></div>
                         </div>
                         <div>
                             <input placeholder="What do you want to listen to?" className={`${isSearch?"block focus:outline-none absolute text-xxs pl-8 h-8 pr-4 py-2 rounded-full w-80 text-black font-regular":"hidden"}`}/>

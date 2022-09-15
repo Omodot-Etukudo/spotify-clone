@@ -9,7 +9,7 @@ function Topgenres({background, image, title}) {
                     <h1 className="text-white font-extrabold text-3xl">{title}</h1>
                 </div>
                 <div className="rotate-12  relative -bottom-16 -right-64 ">
-                    <Image placeholder="blur" blurDataURL className="object-contain bg-clip-content" width={90} height={90} alt={`${title}`} src={`${BASE_URL}${image}`} />
+                    <Image placeholder="blur" blurDataURL className="object-contain bg-clip-content " width={90} height={90} alt={`${title}`} src={`${BASE_URL}${image}`} />
                 </div>
             </div>
         </div>

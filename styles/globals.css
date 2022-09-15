@@ -7,7 +7,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-b from-blue-100 via-white to-white dark:from-blue-900 dark:via-main-bg dark:to-main-bg bg-white text-gray-400;
+    @apply bg-gradient-to-b from-blue-100 via-white to-white dark:from-gray-900 dark:via-main-bg dark:to-main-bg bg-white text-gray-400;
   }
   body::-webkit-scrollbar {
     @apply lg:w-1.5 lg:bg-gradient-to-b dark:from-gray-900 dark:via-main-bg dark:to-main-bg bg-opacity-0 bg-white lg:block hidden lg:px-1;

@@ -19,7 +19,7 @@ function DefaultArtist() {
     
     return (
         
-        <div className="flex flex-col space-y-0 h-screen lg:h-full lg:w-full  lg:max-w-full max-w-full min-w-full py-20 lg:pt-0 lg:pb-6 lg:mb-10 lg:px-0 px-3 lg:bg-main-bg">
+        <div className="flex flex-col space-y-2 h-screen lg:h-full lg:w-full  lg:max-w-full max-w-full min-w-full py-20 lg:pt-0 lg:pb-6 lg:mb-10 lg:px-0 px-3 lg:dark:bg-main-bg bg-white">
            
            <div className="lg:pl-56 lg:pt-0 pb-8" style={artistBg}>
                 <div className="flex flex-col space-y-10 text-white lg:pt-40">
@@ -34,7 +34,7 @@ function DefaultArtist() {
                 </div>
            </div>
 
-           <div className="flex flex-col space-y-4 lg:pl-56 lg:pr-6  py-4 bg-main-bg">
+           <div className="flex flex-col gap-5 lg:pl-56 lg:pr-6  py-4">
                 <div className="flex justify-start items-center space-x-6">
                     <div className={`lg:drop-shadow-2xl cursor-default rounded-full bg-spotify-green w-12 h-12 flex justify-center items-center p-2 hover:scale-110  transition-all duration-300`}>
                         <PlayIcon aria-label="Play Music" className="w-7 h-7 text-gray-900"/>
@@ -42,9 +42,9 @@ function DefaultArtist() {
                     <div>
                         {
                             !getFollowing?
-                            (<button onClick={()=>setFollowing(!getFollowing)} className="uppercase text-xxs text-white border border-white rounded-sm px-4 py-0.5">Following</button>)
+                            (<button onClick={()=>setFollowing(!getFollowing)} className="uppercase text-xxs text-main-bg dark:text-white border border-main-bg dark:border-white rounded-sm px-4 py-0.5">Following</button>)
                             :
-                            (<button onClick={()=>setFollowing(!getFollowing)} className="uppercase text-xxs text-white border border-white rounded-sm px-4 py-0.5">Follow</button>)
+                            (<button onClick={()=>setFollowing(!getFollowing)} className="uppercase text-xxs text-main-bg dark:text-white border border-main-bg dark:border-white rounded-sm px-4 py-0.5">Follow</button>)
                         }
                     </div>
                     <div>
@@ -53,8 +53,8 @@ function DefaultArtist() {
 
                     
                 </div>
-                <div className="grid grid-flow-col grid-cols-12 gap-4">
-                    <div className="col-span-9 flex flex-col space-y-2 justify-start items-start w-full">
+                <div className="grid grid-flow-col grid-cols-12 gap-2">
+                    <div className="col-span-10 flex flex-col space-y-2 justify-start items-start w-full">
                         <div className="w-full flex flex-col space-y-6">
                             <h3 className="text-white text-md lg:text-lg font-semibold">Popular</h3>
                             <div className="flex flex-col space-y-1 justify-start items-start w-full">
@@ -70,8 +70,8 @@ function DefaultArtist() {
                             <p className="uppercase text-xxs text-gray-400  hover:text-white font-semibold transition-all duration-150">See more</p>
                         </div>
                     </div>
-                    <div className="col-span-3">
-                        <div className="w-full flex flex-col space-y-6">
+                    <div className="col-span-2">
+                        {/* <div className="w-full flex flex-col space-y-6">
                             <h3 className="text-white text-md lg:text-lg font-semibold">Artist Pick</h3>
                             <div className="flex space-x-3 justify-start items-start">
                                 <Image alt="Song Name"  loading="lazy" width={70} height={75} className="rounded-sm"  src="https://i.scdn.co/image/ab6761610000e5eba0e4780f120345edddeaada9" />
@@ -83,14 +83,14 @@ function DefaultArtist() {
                                     </div>
                                 </div>
                             </div> 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
 
             <div className="lg:pl-56 lg:pr-6  py-4">
                 <div className="flex flex-col space-y-4 justify-start items-start w-full">
-                    <div className="flex flex-row justify-between items-center w-full"><h2 className="text-white text-md lg:text-xl font-semibold">Discography</h2><h3 className="text-xxs uppercase text-gray-300 hover:underline transition-all duration-150">See All</h3></div>
+                    <div className="flex flex-row justify-between items-center w-full"><h2 className="dark:text-white text-main-bg text-md lg:text-xl font-semibold">Discography</h2><h3 className="text-xxs uppercase dark:text-gray-300 text-gray-700 hover:underline transition-all duration-150">See All</h3></div>
                     <div className="flex justify-center items-center space-x-3"> <Tab title="Popular releases" isActive /> <Tab title="Albums" /> <Tab title="Singles and EPs" /></div>
                     <div className="w-full flex lg:justify-start lg:space-x-3.5 md:justify-between justify-between items-center flex-wrap lg:flex-nowrap">
                         <Mediacard  picture="ab67616d0000b273b87ac71d440973d20f4c8473" title="Chilombo" artist="Jhené Aiko" />
@@ -106,7 +106,7 @@ function DefaultArtist() {
 
             <div className="lg:pl-56 lg:pr-6  py-4">
                 <div className="flex flex-col space-y-4 justify-start items-start w-full">
-                    <div className="flex flex-row justify-between items-center w-full"><h2 className="text-white text-md lg:text-xl font-semibold">Fans also like</h2><h3 className="text-xxs uppercase text-gray-300 hover:underline transition-all duration-150">See All</h3></div>
+                    <div className="flex flex-row justify-between items-center w-full"><h2 className="dark:text-white text-main-bg text-md lg:text-xl font-semibold">Fans also like</h2><h3 className="text-xxs uppercase dark:text-gray-300 text-gray-700 hover:underline transition-all duration-150">See All</h3></div>
                     <div className="w-full flex lg:justify-start lg:space-x-3.5 md:justify-between justify-between items-center flex-wrap lg:flex-nowrap">
                         <ArtistCard name="Bazzi" picture="ab6761610000e5eb335e53b32dfd6e33fef91466" />
                         <ArtistCard name="Burna Boy" picture="ab6761610000e5eba0e4780f120345edddeaada9" />

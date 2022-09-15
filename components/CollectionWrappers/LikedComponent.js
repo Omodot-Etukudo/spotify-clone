@@ -40,15 +40,15 @@ function LikedComponent() {
                         <tbody>
                                 
                             <DefaultSongComponent isLiked />
-                            <DefaultSongComponent/>
-                            <DefaultSongComponent isLiked/>
-                            <DefaultSongComponent/>
-                            <DefaultSongComponent isLiked/>
-                            <DefaultSongComponent/>
-                            <DefaultSongComponent/>
                             <DefaultSongComponent isLiked/>
                             <DefaultSongComponent isLiked/>
-                            <DefaultSongComponent/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
+                            <DefaultSongComponent isLiked/>
                         </tbody>
                     </table>
                 </div>

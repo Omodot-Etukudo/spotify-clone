@@ -53,16 +53,20 @@ function MediaController() {
                         </div>
                         <div className="flex space-x-2 justify-center items-center px-24">
                             <h1 className="text-xxs">0:00</h1>
-                            <input readOnly  type="range" min="1" max="100" value="60" className="ml-2 h-0.5 w-110 my-2 slider bg-spotify-green bg-transparent" />
+                            <div className="w-110 h-0.75 dark:bg-card-hover bg-gray-300 rounded-full flex justify-start items-center mt-0.5">
+                                <div className="w-6/12 h-0.75 dark:bg-white bg-main-bg hover:bg-spotify-green transition-all relative duration-150 rounded-full before:absolute before:-mt-1 before:drop-shadow-sm before:border before:border-gray-200 before:hidden hover:before:block before:shadow-sm before:-right-1 before:rounded-full before:w-3 before:h-3 before:bg-white"></div>        
+                            </div>
                             <h1 className="text-xxs">4:30</h1>
                         </div>
                     </div>
                     <div className="flex space-x-3 my-auto">
                         <ViewListIcon className="w-4 h-4 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300" />
                         <DesktopComputerIcon className="w-4 h-4 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-300" />
-                        <div className="flex group justify-center items-center">
+                        <div className="flex space-x-2 group justify-center items-center">
                             <VolumeUpIcon className="w-4 h-4 group-dark:text-gray-300 dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100" />
-                            <input readOnly type="range" min="1" max="100" value="90" className="ml-2 h-0.5 slider" />
+                            <div className=" w-28 h-0.75 dark:bg-card-hover bg-gray-300 rounded-full flex justify-start items-center ">
+                                <div className="w-8/12 h-0.75 dark:bg-white bg-main-bg group-hover:bg-spotify-green transition-all relative duration-150 rounded-full before:absolute before:-mt-1 before:drop-shadow-sm before:border before:border-gray-200 before:hidden group-hover:before:block before:shadow-sm before:-right-1 before:rounded-full before:w-3 before:h-3 before:bg-white"></div>     
+                            </div>
                         </div>
                     </div>
                 </div>
