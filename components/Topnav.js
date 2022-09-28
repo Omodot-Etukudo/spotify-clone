@@ -5,9 +5,15 @@ import MobileSettingsButton from "../components/MobileSettingsButton"
 import OptionsDropdown from "./OptionsDropdown"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, UserIcon,ChevronDownIcon, CogIcon, ExternalLinkIcon} from "@heroicons/react/outline"
 function Topnav({isSearch,isCollection}) {
+
+    //Initialize React Router
     const router = useRouter()
+
+    //Initialize State getters and Setters
     const [showOptions, toggleOptions] = useState(false)   
     const [getScroll, setScroll] = useState(false); 
+
+    //Listen for scroll on the Y-axis
     useEffect(() => {
         window.addEventListener("scroll", () => {
           setScroll(window.scrollY > 100)
@@ -55,6 +61,7 @@ function Topnav({isSearch,isCollection}) {
                     {/*OPTIONS*/}
                     
                      {
+                        //Check for state getter and set state
                          showOptions? (<OptionsDropdown/>) :null
                      }
                        

@@ -51,10 +51,10 @@ function MediaController() {
                             <FastForwardIcon className="w-5 h-5 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100"/>
                             <SwitchVerticalIcon className="w-4 h-4 my-auto dark:text-gray-300 text-main-bg hover:text-gray-500 dark:hover:text-gray-300 transition-colors duration-100" />
                         </div>
-                        <div className="flex space-x-2 justify-center items-center px-24">
+                        <div className="flex space-x-2 justify-center items-center px-24 group">
                             <h1 className="text-xxs">0:00</h1>
                             <div className="w-110 h-0.75 dark:bg-card-hover bg-gray-300 rounded-full flex justify-start items-center mt-0.5">
-                                <div className="w-6/12 h-0.75 dark:bg-white bg-main-bg hover:bg-spotify-green transition-all relative duration-150 rounded-full before:absolute before:-mt-1 before:drop-shadow-sm before:border before:border-gray-200 before:hidden hover:before:block before:shadow-sm before:-right-1 before:rounded-full before:w-3 before:h-3 before:bg-white"></div>        
+                                <div className="w-6/12 h-0.75 dark:bg-white bg-main-bg group-hover:bg-spotify-green transition-all relative duration-150 rounded-full before:absolute before:-mt-1 before:drop-shadow-sm before:border before:border-gray-200 before:hidden group-hover:before:block before:shadow-sm before:-right-1 before:rounded-full before:w-3 before:h-3 before:bg-white"></div>        
                             </div>
                             <h1 className="text-xxs">4:30</h1>
                         </div>

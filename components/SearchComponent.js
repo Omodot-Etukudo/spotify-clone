@@ -1,24 +1,35 @@
 import {SearchIcon, ChevronLeftIcon} from "@heroicons/react/outline"
+import { useState,useEffect } from "react";
 import MediaController from "./MediaController";
 import Allgenres from "./SearchComponents/Allgenres";
 import allgenres from "./SearchComponents/Allgenres";
 import Topgenres from "./SearchComponents/Topgenres";
 import Topnav from "./Topnav";
 function SearchComponent() {
+    //initialize scroll getter and setter
+    const [getScroll, setScroll] = useState(false); 
+    //Listen for scroll on the x-axis
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+          setScroll(window.scrollX > 100)
+        })
+      }, []
+    )
+
     return (
         <div className="h-screen lg:h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:pt-20 px-3 lg:pr-6">
            
            <div className="hidden lg:block">
                <div>
-                    <div className="flex lg:mb-5 ">
+                    <div className="flex lg:mb-5 " >
                         <h2 className="dark:text-white text-main-bg text-lg lg:text-xl font-semibold">Your top genres</h2>
                     </div>
-                    <div className="flex space-x-6 h-60 overflow-y-hidden overflow-x-scroll whitespace-nowrap scrollbar-hide">
+                    
+                    <div className={`${getScroll ? "bg-white flex space-x-6 h-60 overflow-y-hidden overflow-x-scroll whitespace-nowrap scrollbar-hide":"flex space-x-6 h-60 overflow-y-hidden overflow-x-scroll whitespace-nowrap scrollbar-hide"}`}>
                         <Topgenres title="R&B" image="ab67706f000000032b29b4a26e620ccd2bd2d2f8" background="cursor-pointer bg-gradient-to-r from-pink-500 via-pink-400 to-pink-400 " />
                         <Topgenres title="Christian & gospel" image="ab67706f00000003c5f9db40ec3aa9a7f8db6693" background="cursor-pointer bg-gradient-to-r from-blue-500 via-blue-500 to-blue-400" />
                         <Topgenres title="Hip-hop" image="ab67706f000000036c6ca524605c48d9842fec9e" background="cursor-pointer bg-gradient-to-r from-yellow-700 via-yellow-600 to-yellow-600" /> 
-                        <Topgenres title="Pop" image="ab67706f00000003f336332699dd46ae4396e15f" background="bg-gradient-to-r cursor-pointer  from-purple-800 via-purple-700 to-purple-600" />
-                        
+                        <Topgenres title="Pop" image="ab67706f00000003f336332699dd46ae4396e15f" background="bg-gradient-to-r cursor-pointer  from-purple-800 via-purple-700 to-purple-600" />                     
                     </div>
                     
                </div>
