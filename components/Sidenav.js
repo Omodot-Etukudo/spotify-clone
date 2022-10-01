@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Headeritem from './Headeritem'   
 import Link from 'next/link'
 import React, {useState} from "react"
-
+import data from "../pages/api/feed.json";
 function Sidenav() {
     
     return (
@@ -20,8 +20,7 @@ function Sidenav() {
             <div className="h-full">
                 <div className="border-b dark:border-gray-800 border-gray-200  w-full">
                     <div className="icon-items">
-                        <Headeritem linkTo={"/"} title="Home" Icon={HomeIcon} />
-                        
+                        <Headeritem linkTo={"/"} title="Home" Icon={HomeIcon} />                      
                         <Headeritem linkTo={"/search"}  title="Search" Icon={SearchIcon} />
                         <Headeritem linkTo={"/collection/playlists"} title="Your Library" Icon={CollectionIcon} />
                         
@@ -34,12 +33,25 @@ function Sidenav() {
                     </div>
                 </div>    
                 <div>
-                    <div className="flex flex-col space-y-3 text-xs pl-1 py-4 tracking-wide">
-                        <Link passHref  href="/playlist/ishhse78w"><h3 className="dark:hover:text-white dark:text-gray-300 text-gray-600 hover:text-main-bg transition-all cursor-default text-xxs">The Midnight Hour</h3></Link>
-                        <Link passHref  href="/playlist/ishhse78w"><h3 className="dark:hover:text-white dark:text-gray-300 text-gray-600 hover:text-main-bg transition-all cursor-default text-xxs">Your Coffee Break</h3></Link>
-                        <Link passHref  href="/playlist/ishhse78w"><h3 className="dark:hover:text-white dark:text-gray-300 text-gray-600 hover:text-main-bg transition-all cursor-default text-xxs">Amapiano on the rocks</h3></Link>
-                        <Link passHref  href="/playlist/ishhse78w"><h3 className="dark:hover:text-white dark:text-gray-300 text-gray-600 hover:text-main-bg transition-all cursor-default text-xxs">Amapiano on the rocks</h3></Link>
-                    </div>
+                   {data.map((details)=>{
+                     return(
+                        <div className="flex flex-col space-y-3 text-xs pl-1 py-4 tracking-wide">
+                        {details.feed.slice(0,20).map((content)=>{
+                            if(content.type == "Playlist")
+                            {
+                            return (
+                            
+                                <Link passHref key={content.id}  href={`/playlist/${content.id}`}><h3 className="dark:hover:text-white dark:text-gray-300 text-gray-600 hover:text-main-bg transition-all cursor-default text-xxs">{content.name}</h3></Link>
+
+                            
+                            )
+                            }else {null}
+                        })}
+                    </div>   
+
+                     )
+                   })}
+                    
                 </div>
             </div>    
             <div className="pb-8">

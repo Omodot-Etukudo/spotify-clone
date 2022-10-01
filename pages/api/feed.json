@@ -1,0 +1,592 @@
+[
+    {
+        "id":"1",
+        "heading":"Recently Played",
+        "feed":[
+            {
+                "id": 1,
+                "name":"Chilombo",
+                "type":"Album",
+                "creator":"Jhené Aiko",
+                "cover":"ab67616d0000b273b87ac71d440973d20f4c8473",
+                "year":"2020",
+                "duration":"1 hr 3 min",
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Lotus - intro",
+                        "duration":"1:11",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"Triggered (Freestyle)",
+                        "duration":"3:29",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"None of your concern (feat. Big Sean)",
+                        "duration":"4:19",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"Speak",
+                        "duration":"3:05",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":5,
+                        "name":"B.S. (feat. HER)",
+                        "duration":"3:32",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":6,
+                        "name":"P*$$Y Fairy (OTW)",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":7,
+                        "name":"Happiness over everything (H.O.E) (feat. Future & Miguel)",
+                        "duration":"3:08",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":8,
+                        "name":"One Way St. (feat. Ab-Soul)",
+                        "duration":"2:54",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":9,
+                        "name":"Define me - interlude",
+                        "duration":"1:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":10,
+                        "name":"10k hours (feat. Nas)",
+                        "duration":"4:17",
+                        "isPlaying":false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name":"ISWIS SE04EP27 'The Guy'; Episode ft MI Abaga",
+                "type":"Podcast",
+                "creator":"FK and Jollz",
+                "cover":"ab6765630000ba8a269c9c597fca9835f921cf95",
+                "year":"2022",
+                "isNew":true,
+                "duration":"1 hr 3 min",
+                "isPlaying":true,
+                "progress":20,
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 12,
+                "name":"Hit Rewind",
+                "type":"Playlist",
+                "creator":"Selena Gomez, Sam Smith, Kesha...",
+                "cover":"ab67706c0000bebb97b3a89d524422015f981265",
+                "year":"2022",
+                "duration":"1 hr 3 min",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 2,
+                "name":"Love, Damini",
+                "type":"Album",
+                "creator":"Burna Boy",
+                "cover":"ab67616d0000b27312ebde47882280b814275600",
+                "year":"2022",
+                "duration":"1 hr",
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Glory (feat. Ladysmith Blacl Mambazo)",
+                        "duration":"3:51",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"Science",
+                        "duration":"3:21",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Cloak and Dagger (feat. JHUS)",
+                        "duration":"3:31",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"Kilometre",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true
+                    },
+                    {
+                        "id":5,
+                        "name":"Jagele",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":6,
+                        "name":"Whiskey",
+                        "duration":"3:23",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":7,
+                        "name":"Last Last",
+                        "duration":"2:52",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":8,
+                        "name":"Different Size (feat. Victony)",
+                        "duration":"3:29",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":9,
+                        "name":"It's Plenty",
+                        "duration":"3:36",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":10,
+                        "name":"Dirty Secrets",
+                        "duration":"2:31",
+                        "isPlaying":false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name":"So Nigerian Podcast: The 8 stages before breakfast",
+                "type":"Podcast",
+                "creator":"Dami Aros",
+                "cover":"ab6765630000ba8aa814f8f4fc997d25392037b7",
+                "year":"2022",
+                "duration":"55 min",
+                "isPlaying":true,
+                "progress":4,
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 6,
+                "name":"Traffic Jam Naija",
+                "type":"Playlist",
+                "creator":"BNXN, Cavemen, Amarae and others",
+                "cover":"ab67706f000000031a6672f7d6e8d1533efe714f",
+                "year":"2022",
+                "isPlaying":false,
+                "duration":"1 hr",
+                "isNew":true,
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 8,
+                "name":"Everyday Favorites",
+                "type":"Playlist",
+                "creator":"Coldplay, Bastille, OneRepublic",
+                "cover":"ab67706f000000030c393859070362b66bcfd973",
+                "year":"2022",
+                "duration":"1 hr 24 min",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 9,
+                "name":"New Lagos Vibe",
+                "type":"Playlist",
+                "creator":"Show Dem Camp, BOJ, Ajebutter",
+                "cover":"ab67616d00001e02fdd6a725813be0058fdb90a5",
+                "year":"2022",
+                "duration":"1 hr 24 min",
+                "data":[
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id":"4",
+        "heading":"Top artists this month",
+        "feed":[
+            {
+                "id": 4,
+                "type":"Artist",
+                "creator":"Bazzi",
+                "cover":"ab6761610000e5eb335e53b32dfd6e33fef91466",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 6,
+                "type":"Artist",
+                "creator":"Burna Boy",
+                "cover":"ab6761610000e5eba0e4780f120345edddeaada9",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 1,
+                "type":"Artist",
+                "creator":"Lord Huron",
+                "cover":"ab6761610000e5eb1d4e4e7e3c5d8fa494fc5f10",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 2,
+                "type":"Artist",
+                "creator":"Tems",
+                "cover":"ab6761610000e5eb1d3357f91de16a31b194ed32",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 8,
+                "type":"Artist",
+                "creator":"Vance Joy",
+                "cover":"ab6761610000e5eb8f074ec8c25406680bf26422",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 10,
+                "type":"Artist",
+                "creator":"Dami Oniru",
+                "cover":"ab6761610000e5eb055a1711d7dabf27e4d365ee",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 10,
+                "type":"Artist",
+                "creator":"Bastille",
+                "cover":"ab6761610000e5ebfb7a0fe5a0e33cf5325fcd91",
+                "data":[
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id":"2",
+        "heading":"Jump back in",
+        "feed":[
+            {
+                "id": 1,
+                "name":"Worry <",
+                "type":"Album",
+                "creator":"Tim Lyre",
+                "cover":"ab67616d00001e021ca4004ae5dda475d30e8eb7",
+                "year":"2022",
+                "duration":"31 min 14 sec",
+                "progress": 16,
+                "isPlaying":true,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Organic",
+                        "duration":"3:04",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"Present",
+                        "duration":"2:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Real",
+                        "duration":"4:07",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"Speak",
+                        "duration":"3:05",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":5,
+                        "name":"Syzygy",
+                        "duration":"4:00",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":6,
+                        "name":"Hubris",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":7,
+                        "name":"General",
+                        "duration":"3:08",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":8,
+                        "name":"High Life",
+                        "duration":"2:54",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":9,
+                        "name":"Prime Time",
+                        "duration":"1:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":10,
+                        "name":"Spanish Lime",
+                        "duration":"4:17",
+                        "isPlaying":false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name":"Full Moon Weekends",
+                "type":"ep",
+                "creator":"Whoisakin",
+                "cover":"ab67616d0000b2731485c32bff571d4b25581bcf",
+                "year":"2020",
+                "duration":"11 min 45 sec",
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Magic",
+                        "duration":"3:51",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"+234",
+                        "duration":"3:21",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Space",
+                        "duration":"3:31",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"2:25",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true
+                    },
+                    {
+                        "id":5,
+                        "name":"Energy",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    }                
+                ]
+            },
+            {
+       
+                "id": 3,
+                "name":"Palmwine Music 3",
+                "type":"Album",
+                "isNew":true,
+                "creator":"Show Dem Camp",
+                "cover":"ab67616d0000b27328faaa56f9b62935ca915b44",
+                "year":"2022",
+                "duration":"56 min",
+                "progress":"8",
+                "isPlaying":true,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Intro",
+                        "duration":"1:11",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"Head over heels",
+                        "duration":"3:29",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Live Life (feat. Tems)",
+                        "duration":"4:19",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"First time caller (skit)",
+                        "duration":"1:05",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":5,
+                        "name":"Mine Alone",
+                        "duration":"3:32",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":6,
+                        "name":"Kele",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":7,
+                        "name":"WYW",
+                        "duration":"3:08",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":8,
+                        "name":"Feel Something",
+                        "duration":"2:54",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":9,
+                        "name":"Freaky",
+                        "duration":"1:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":10,
+                        "name":"Your Love",
+                        "duration":"4:17",
+                        "isPlaying":false
+                    }
+                ]
+            
+            },
+            {
+       
+                "id": 4,
+                "name":"Woke Up in Love",
+                "type":"Single",
+                "isNew":true,
+                "creator":"Kygo, Griffin, Callum Scott",
+                "cover":"ab67616d0000b2731d31a4969ceaaaa91c52e025",
+                "year":"2022",
+                "duration":"3 min 33 sec",
+                "progress":"2",
+                "isPlaying":true,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Woke Up in Love",
+                        "duration":"3:33",
+                        "isPlaying":false
+                    }
+                    
+                ]
+            
+            },
+            {
+       
+                "id": 5,
+                "name":"You were loved (with OneRepublic)",
+                "type":"Single",
+                "creator":"Griffin & OneRepublic",
+                "cover":"ab67616d0000b273a25cacf9e788e7c575e8586c",
+                "year":"2022",
+                "duration":"3 min 41 sec",
+                "progress":"1",
+                "isPlaying":true,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"You were loved (with OneRepublic)",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    }
+                    
+                ]
+            
+            },
+            {
+       
+                "id": 6,
+                "name":"In My Head",
+                "type":"Single",
+                "isNew":false,
+                "creator":"Last Heroes, Woodlock",
+                "cover":"ab67616d00001e023457f73ba3708181fd3a7e0b",
+                "year":"2022",
+                "duration":"3 min 41 sec",
+                "isPlaying":false,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"In My Head",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    }
+                    
+                ]
+            
+            },
+            {
+       
+                "id": 7,
+                "name":"Nirvana",
+                "type":"Single",
+                "isNew":false,
+                "creator":"ELLIANA",
+                "cover":"ab67616d0000b27350ab87179db457a93f8b8cb3",
+                "year":"2020",
+                "duration":"4 min 26 sec",
+                "isPlaying":true,
+                "progress":"2",
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Nirvana",
+                        "duration":"4:26",
+                        "isPlaying":false
+                    }
+                    
+                ]
+            
+            }
+            
+        ]
+    }
+]   
+
+            
+
