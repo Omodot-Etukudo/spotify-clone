@@ -4,7 +4,7 @@
         "heading":"Recently Played",
         "feed":[
             {
-                "id": 1,
+                "id": 17482987,
                 "name":"Chilombo",
                 "type":"Album",
                 "creator":"Jhené Aiko",
@@ -74,23 +74,9 @@
                     }
                 ]
             },
+            
             {
-                "id": 3,
-                "name":"ISWIS SE04EP27 'The Guy'; Episode ft MI Abaga",
-                "type":"Podcast",
-                "creator":"FK and Jollz",
-                "cover":"ab6765630000ba8a269c9c597fca9835f921cf95",
-                "year":"2022",
-                "isNew":true,
-                "duration":"1 hr 3 min",
-                "isPlaying":true,
-                "progress":20,
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 12,
+                "id": 27439,
                 "name":"Hit Rewind",
                 "type":"Playlist",
                 "creator":"Selena Gomez, Sam Smith, Kesha...",
@@ -102,7 +88,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 49878290,
                 "name":"Love, Damini",
                 "type":"Album",
                 "creator":"Burna Boy",
@@ -174,7 +160,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 348279090,
                 "name":"So Nigerian Podcast: The 8 stages before breakfast",
                 "type":"Podcast",
                 "creator":"Dami Aros",
@@ -188,7 +174,7 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 38792018,
                 "name":"Traffic Jam Naija",
                 "type":"Playlist",
                 "creator":"BNXN, Cavemen, Amarae and others",
@@ -202,7 +188,7 @@
                 ]
             },
             {
-                "id": 8,
+                "id": 487290,
                 "name":"Everyday Favorites",
                 "type":"Playlist",
                 "creator":"Coldplay, Bastille, OneRepublic",
@@ -214,7 +200,22 @@
                 ]
             },
             {
-                "id": 9,
+                "id": 482790087,
+                "name":"ISWIS SE04EP27 'The Guy'; Episode ft MI Abaga",
+                "type":"Podcast",
+                "creator":"FK and Jollz",
+                "cover":"ab6765630000ba8a269c9c597fca9835f921cf95",
+                "year":"2022",
+                "isNew":true,
+                "duration":"1 hr 3 min",
+                "isPlaying":true,
+                "progress":20,
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 388219,
                 "name":"New Lagos Vibe",
                 "type":"Playlist",
                 "creator":"Show Dem Camp, BOJ, Ajebutter",
@@ -223,198 +224,6 @@
                 "duration":"1 hr 24 min",
                 "data":[
                     
-                ]
-            }
-            
-        ]
-    },
-    {
-        "id":"4",
-        "heading":"Top artists this month",
-        "feed":[
-            {
-                "id": 4,
-                "type":"Artist",
-                "creator":"Bazzi",
-                "cover":"ab6761610000e5eb335e53b32dfd6e33fef91466",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 6,
-                "type":"Artist",
-                "creator":"Burna Boy",
-                "cover":"ab6761610000e5eba0e4780f120345edddeaada9",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 1,
-                "type":"Artist",
-                "creator":"Lord Huron",
-                "cover":"ab6761610000e5eb1d4e4e7e3c5d8fa494fc5f10",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 2,
-                "type":"Artist",
-                "creator":"Tems",
-                "cover":"ab6761610000e5eb1d3357f91de16a31b194ed32",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 8,
-                "type":"Artist",
-                "creator":"Vance Joy",
-                "cover":"ab6761610000e5eb8f074ec8c25406680bf26422",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 10,
-                "type":"Artist",
-                "creator":"Dami Oniru",
-                "cover":"ab6761610000e5eb055a1711d7dabf27e4d365ee",
-                "data":[
-                    
-                ]
-            },
-            {
-                "id": 10,
-                "type":"Artist",
-                "creator":"Bastille",
-                "cover":"ab6761610000e5ebfb7a0fe5a0e33cf5325fcd91",
-                "data":[
-                    
-                ]
-            }
-            
-        ]
-    },
-    {
-        "id":"2",
-        "heading":"Jump back in",
-        "feed":[
-            {
-                "id": 1,
-                "name":"Worry <",
-                "type":"Album",
-                "creator":"Tim Lyre",
-                "cover":"ab67616d00001e021ca4004ae5dda475d30e8eb7",
-                "year":"2022",
-                "duration":"31 min 14 sec",
-                "progress": 16,
-                "isPlaying":true,
-                "data":[
-                    {
-                        "id":1,
-                        "name":"Organic",
-                        "duration":"3:04",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":2,
-                        "name":"Present",
-                        "duration":"2:48",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":3,
-                        "name":"Real",
-                        "duration":"4:07",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":4,
-                        "name":"Speak",
-                        "duration":"3:05",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":5,
-                        "name":"Syzygy",
-                        "duration":"4:00",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":6,
-                        "name":"Hubris",
-                        "duration":"3:41",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":7,
-                        "name":"General",
-                        "duration":"3:08",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":8,
-                        "name":"High Life",
-                        "duration":"2:54",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":9,
-                        "name":"Prime Time",
-                        "duration":"1:48",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":10,
-                        "name":"Spanish Lime",
-                        "duration":"4:17",
-                        "isPlaying":false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "name":"Full Moon Weekends",
-                "type":"ep",
-                "creator":"Whoisakin",
-                "cover":"ab67616d0000b2731485c32bff571d4b25581bcf",
-                "year":"2020",
-                "duration":"11 min 45 sec",
-                "data":[
-                    {
-                        "id":1,
-                        "name":"Magic",
-                        "duration":"3:51",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":2,
-                        "name":"+234",
-                        "duration":"3:21",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":3,
-                        "name":"Space",
-                        "duration":"3:31",
-                        "isPlaying":false
-                    },
-                    {
-                        "id":4,
-                        "name":"2:25",
-                        "duration":"2:32",
-                        "isPlaying":false,
-                        "isExplicit":true
-                    },
-                    {
-                        "id":5,
-                        "name":"Energy",
-                        "duration":"3:02",
-                        "isPlaying":false
-                    }                
                 ]
             },
             {
@@ -494,8 +303,238 @@
             
             },
             {
+                "id": 9484982,
+                "name":"Worry <",
+                "type":"Album",
+                "creator":"Tim Lyre",
+                "cover":"ab67616d00001e021ca4004ae5dda475d30e8eb7",
+                "year":"2022",
+                "duration":"31 min 14 sec",
+                "progress": 16,
+                "isPlaying":true,
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Organic",
+                        "duration":"3:04",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"Present",
+                        "duration":"2:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Real",
+                        "duration":"4:07",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"Speak",
+                        "duration":"3:05",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":5,
+                        "name":"Syzygy",
+                        "duration":"4:00",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":6,
+                        "name":"Hubris",
+                        "duration":"3:41",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":7,
+                        "name":"General",
+                        "duration":"3:08",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":8,
+                        "name":"High Life",
+                        "duration":"2:54",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":9,
+                        "name":"Prime Time",
+                        "duration":"1:48",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":10,
+                        "name":"Spanish Lime",
+                        "duration":"4:17",
+                        "isPlaying":false
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id":"4",
+        "heading":"Top artists this month",
+        "feed":[
+            {
+                "id": 498290,
+                "type":"Artist",
+                "creator":"Bazzi",
+                "cover":"ab6761610000e5eb72a8e86c457085e7fdd3453f",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 98291,
+                "type":"Artist",
+                "creator":"Coldplay",
+                "cover":"ab6761610000e5eb865a3301762a8fce048cb469",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 80304,
+                "type":"Artist",
+                "creator":"The Cavemen",
+                "cover":"ab6761610000e5ebacceb4e786fc8b906181658a",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 89389,
+                "type":"Artist",
+                "creator":"Aśa",
+                "cover":"ab6761610000e5eba21f33bac1539d247da03ee7",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 4829,
+                "type":"Artist",
+                "creator":"BNXN",
+                "cover":"ab6761610000e5eb26dd989009571c40ccc45a37",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 3819,
+                "type":"Artist",
+                "creator":"Burna Boy",
+                "cover":"ab6761610000e5eba0e4780f120345edddeaada9",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 378190,
+                "type":"Artist",
+                "creator":"Lord Huron",
+                "cover":"ab6761610000e5eb1d4e4e7e3c5d8fa494fc5f10",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 93023719,
+                "type":"Artist",
+                "creator":"Tems",
+                "cover":"ab6761610000e5eb1d3357f91de16a31b194ed32",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 47290,
+                "type":"Artist",
+                "creator":"Vance Joy",
+                "cover":"ab6761610000e5eb8f074ec8c25406680bf26422",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 39284,
+                "type":"Artist",
+                "creator":"Dami Oniru",
+                "cover":"ab6761610000e5eb055a1711d7dabf27e4d365ee",
+                "data":[
+                    
+                ]
+            },
+            {
+                "id": 478490,
+                "type":"Artist",
+                "creator":"Bastille",
+                "cover":"ab6761610000e5ebfb7a0fe5a0e33cf5325fcd91",
+                "data":[
+                    
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id":"2",
+        "heading":"Jump back in",
+        "feed":[
+            
+            {
+                "id": 12801,
+                "name":"Full Moon Weekends",
+                "type":"ep",
+                "creator":"Whoisakin",
+                "cover":"ab67616d0000b2731485c32bff571d4b25581bcf",
+                "year":"2020",
+                "duration":"11 min 45 sec",
+                "data":[
+                    {
+                        "id":1,
+                        "name":"Magic",
+                        "duration":"3:51",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":2,
+                        "name":"+234",
+                        "duration":"3:21",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":3,
+                        "name":"Space",
+                        "duration":"3:31",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4,
+                        "name":"2:25",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true
+                    },
+                    {
+                        "id":5,
+                        "name":"Energy",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    }                
+                ]
+            },
+            
+            {
        
-                "id": 4,
+                "id": 328938,
                 "name":"Woke Up in Love",
                 "type":"Single",
                 "isNew":true,
@@ -518,7 +557,7 @@
             },
             {
        
-                "id": 5,
+                "id": 6823903,
                 "name":"You were loved (with OneRepublic)",
                 "type":"Single",
                 "creator":"Griffin & OneRepublic",
@@ -562,7 +601,7 @@
             },
             {
        
-                "id": 7,
+                "id": 23489,
                 "name":"Nirvana",
                 "type":"Single",
                 "isNew":false,
@@ -587,6 +626,3 @@
         ]
     }
 ]   
-
-            
-

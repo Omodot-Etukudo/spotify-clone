@@ -35,7 +35,7 @@ function Sidenav() {
                 <div>
                    {data.map((details)=>{
                      return(
-                        <div className="flex flex-col space-y-3 text-xs pl-1 py-4 tracking-wide">
+                        <div key={details.id} className="flex flex-col space-y-3 text-xs pl-1 py-4 tracking-wide">
                         {details.feed.slice(0,20).map((content)=>{
                             if(content.type == "Playlist")
                             {
