@@ -5,7 +5,7 @@ import { BASE_URL, BASE_URL2, BASE_URL3 } from "../next.config"
 function Mediacard({picture, title, artist, isplaylist, isPodcast,id}) {
     
     return (
-        <Link passHref  href="/album/id">
+        <Link passHref  href={`/album/${id}`}>
             <div className="group h-54">
                 <div className=" cursor-pointer w-32 lg:w-38 lg:dark:bg-card-bg lg:dark:group-hover:bg-card-hover bg-gray-100 lg:group-hover:bg-gray-200 lg:shadow-xl bg-opacity-50 lg:px-4 pt-4 pb-5 flex flex-col rounded transition-colors duration-500 dark:border-0 border border-gray-100">
                     <div className="-z-10 lg:z-auto"><Image alt={title} placeholder="blur" blurDataURL loading="lazy" className="lg:rounded lg:flex lg:shadow-2xl lg:drop-shadow-2xl" width={220} height={220}  src={`${BASE_URL}${picture}` || `${BASE_URL2}${picture}` || `${BASE_URL3}${picture}`} /></div>

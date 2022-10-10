@@ -11,6 +11,7 @@
                 "cover":"ab67616d0000b273b87ac71d440973d20f4c8473",
                 "year":"2020",
                 "duration":"1 hr 3 min",
+                "isLiked":true,
                 "data":[
                     {
                         "id":1,
@@ -203,7 +204,7 @@
                 "id": 482790087,
                 "name":"ISWIS SE04EP27 'The Guy'; Episode ft MI Abaga",
                 "type":"Podcast",
-                "creator":"FK and Jollz",
+                "creator":"Eggcorn Digital",
                 "cover":"ab6765630000ba8a269c9c597fca9835f921cf95",
                 "year":"2022",
                 "isNew":true,
@@ -233,7 +234,7 @@
                 "type":"Album",
                 "isNew":true,
                 "creator":"Show Dem Camp",
-                "cover":"ab67616d0000b27328faaa56f9b62935ca915b44",
+                "cover":"ab67616d0000b2738fbc25f4b579a093d04a1a95",
                 "year":"2022",
                 "duration":"56 min",
                 "progress":"8",
@@ -243,7 +244,8 @@
                         "id":1,
                         "name":"Intro",
                         "duration":"1:11",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     },
                     {
                         "id":2,
@@ -255,7 +257,8 @@
                         "id":3,
                         "name":"Live Life (feat. Tems)",
                         "duration":"4:19",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     },
                     {
                         "id":4,
@@ -273,7 +276,8 @@
                         "id":6,
                         "name":"Kele",
                         "duration":"3:41",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     },
                     {
                         "id":7,
@@ -317,7 +321,8 @@
                         "id":1,
                         "name":"Organic",
                         "duration":"3:04",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     },
                     {
                         "id":2,
@@ -347,7 +352,8 @@
                         "id":6,
                         "name":"Hubris",
                         "duration":"3:41",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     },
                     {
                         "id":7,
@@ -531,7 +537,186 @@
                     }                
                 ]
             },
-            
+            {
+                "id": 128017903,
+                "name":"THE ANGEL YOU DON'T KNOW",
+                "type":"Album",
+                "creator":"Amaarae",
+                "cover":"ab67616d0000b2737f3dc1221620c8e0921cb6f3",
+                "year":"2020",
+                "duration":"35 min 45 sec",
+                "isLiked":true,
+                "data":[
+                    {
+                        "id":378928320,
+                        "name":"D*A*N*G*E*R*O*U*S",
+                        "duration":"3:51",
+                        "isPlaying":false,
+                        "isLiked":false
+                    },
+                    {
+                        "id":38990380,
+                        "name":"FANCY",
+                        "duration":"3:21",
+                        "isPlaying":false,
+                        "isLiked":false
+                    },
+                    {
+                        "id":3,
+                        "name":"FANTASY",
+                        "duration":"3:31",
+                        "isPlaying":false,
+                        "isLiked":true
+                    },
+                    {
+                        "id":4,
+                        "name":"LEAVE ME ALONE",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true,
+                        "isLiked":false
+                    },
+                    {
+                        "id":5,
+                        "name":"JUMPING SHIP",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    }                
+                ]
+            },
+            {
+                "id": 128078293,
+                "name":"It's a Double Pleasure to Deceive the Deceiver",
+                "type":"Album",
+                "creator":"Daramola",
+                "cover":"ab67616d00001e02696f62fcb0576f69b67e7610",
+                "year":"2019",
+                "duration":"35 min 45 sec",
+                "data":[
+                    {
+                        "id":3536790,
+                        "name":"9 & Berlin",
+                        "duration":"3:51",
+                        "isPlaying":false,
+                        "isLiked":true
+                    },
+                    {
+                        "id":7984739,
+                        "name":"Heartbreak Please",
+                        "duration":"3:21",
+                        "isPlaying":false,
+                        "isLiked":false
+                        
+                    },
+                    {
+                        "id":487920338,
+                        "name":"D.W.M.T",
+                        "duration":"3:31",
+                        "isPlaying":false,
+                        "isLiked":false
+                    },
+                    {
+                        "id":9483744690,
+                        "name":"Bring me down",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true,
+                        "isLiked":true
+                    },
+                    {
+                        "id":993876198,
+                        "name":"Lagos City Wave",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    },
+                    {
+                        "id":89710413,
+                        "name":"Joseph",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    },
+                    {
+                        "id":743204391847,
+                        "name":"Fiyah",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    }                       
+                ]
+            },
+            {
+                "id": 127401,
+                "name":"There is more",
+                "type":"Album",
+                "creator":"Hillsong Worship",
+                "cover":"ab67616d0000b2733a87caad9ad545c8576f4cc1",
+                "year":"2018",
+                "duration":"1 hr 32 min",
+                "data":[
+                    {
+                        "id":23398301134,
+                        "name":"Who you say i am",
+                        "duration":"3:51",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":4938130938,
+                        "name":"You are life",
+                        "duration":"3:21",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":39891039879,
+                        "name":"The Passion",
+                        "duration":"3:31",
+                        "isPlaying":false,
+                        "isLiked":true
+
+                    },
+                    {
+                        "id":489374903180,
+                        "name":"God so loved",
+                        "duration":"2:32",
+                        "isPlaying":false,
+                        "isExplicit":true
+                    },
+                    {
+                        "id":4879230181,
+                        "name":"Be Still",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":34987239889,
+                        "name":"Rememberance",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    } ,
+                    {
+                        "id":834729837493,
+                        "name":"Valentine",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    },
+                    {
+                        "id":987920318,
+                        "name":"Touch of heaven",
+                        "duration":"3:02",
+                        "isPlaying":false,
+                        "isLiked":true
+                    }, 
+                    {
+                        "id":3782931234,
+                        "name":"Lettered Love",
+                        "duration":"3:02",
+                        "isPlaying":false
+                    }                   
+                ]
+            },
             {
        
                 "id": 328938,
@@ -549,7 +734,8 @@
                         "id":1,
                         "name":"Woke Up in Love",
                         "duration":"3:33",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     }
                     
                 ]
@@ -566,12 +752,14 @@
                 "duration":"3 min 41 sec",
                 "progress":"1",
                 "isPlaying":true,
+                "isLiked":true,
                 "data":[
                     {
                         "id":1,
                         "name":"You were loved (with OneRepublic)",
                         "duration":"3:41",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     }
                     
                 ]
@@ -611,12 +799,14 @@
                 "duration":"4 min 26 sec",
                 "isPlaying":true,
                 "progress":"2",
+                "isLiked":true,
                 "data":[
                     {
                         "id":1,
                         "name":"Nirvana",
                         "duration":"4:26",
-                        "isPlaying":false
+                        "isPlaying":false,
+                        "isLiked":true
                     }
                     
                 ]

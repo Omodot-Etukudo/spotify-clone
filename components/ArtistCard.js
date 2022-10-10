@@ -5,7 +5,7 @@ import Link from "next/link"
 function ArtistCard({picture, name, id}) {
     
     return (
-        <Link passHref  href="/artist/id">
+        <Link passHref  href={`/artist/${id}`}>
             <div className="group h-54 ">
                 <div className=" cursor-pointer w-32 lg:w-38 lg:dark:bg-card-bg lg:dark:group-hover:bg-card-hover bg-gray-100 lg:group-hover:bg-gray-200 bg-opacity-50 lg:px-4 pt-4 pb-5 flex flex-col rounded dark:border-0 border border-gray-100  transition-colors duration-500">
                     <div className="-z-10 lg:z-auto rounded-full group-hover:drop-shadow-2xl"><Image alt={name} placeholder="blur" blurDataURL loading="lazy" className="rounded-full lg:flex lg:drop-shadow-2xl " width={220} height={220}  src={`${BASE_URL}${picture}` || `${BASE_URL2}${picture}` || `${BASE_URL3}${picture}`} /></div>

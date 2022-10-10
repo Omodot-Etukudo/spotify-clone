@@ -7,7 +7,6 @@ import greeting from "/getTime";
 import data from "../pages/api/feed.json";
 function Feed() {
     const content = []
-
     return (
         <div className="h-full lg:pl-56 lg:max-w-full max-w-full min-w-full py-20 lg:py-20 px-3 lg:px-6  bg-auto bg-fixed">
             <Topnav/>
@@ -58,13 +57,13 @@ function Feed() {
                                 {/* Check for the content type to conditionally assign components */}   
                                 if(content.type != "Artist"){
                                     return(                                                                           
-                                        <Mediacard key={content.id} isPodcast={content.type== "Podcast" ? true : false} picture={content.cover} artist={content.creator} title={content.name}  />                       
+                                        <Mediacard key={content.id} id={content.id} isPodcast={content.type== "Podcast" ? true : false} picture={content.cover} artist={content.creator} title={content.name}  />                       
                                     ) 
                                 } 
                                 // Return artist component based on condition above
                                 else {
                                     return(                                                         
-                                        <ArtistCard key={content.id} picture={content.cover} name={content.creator}/>                                           
+                                        <ArtistCard key={content.id} id={content.id} picture={content.cover} name={content.creator}/>                                           
                                     ) 
                                 }                                 
                                 })}
