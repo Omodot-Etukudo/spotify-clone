@@ -38,7 +38,7 @@ function SearchComponent() {
                         <h2 className="dark:text-white text-main-bg text-lg lg:text-xl font-semibold">Browse all</h2>
                         
                     </div>
-                        <div className="flex flex-wrap gap-0">
+                        <div className="flex flex-wrap gap-4">
                             <Allgenres title="Podcasts" background="rounded-lg bg-gradient-to-br from-green-700 via-green-600 to-green-500 " image="ab6765630000ba8a67a4119f9f60a6d8336b8452" />
                             <Allgenres title="Made For You" background="rounded-lg bg-gradient-to-br from-gray-700 via-blue-900 to-blue-700 " image="ab67616d0000b2734169ddd81ff51075abab4ac1"/>
                             <Allgenres title="Lo-Fi" background="rounded-lg bg-gradient-to-br from-gray-800 via-gray-500 to-gray-500 " image="ab67706f000000035bfa4d6bec505c7a2634cc69"/>

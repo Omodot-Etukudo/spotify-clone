@@ -19,7 +19,7 @@ function AlbumComponent() {
                         const newArray=[]
                         newArray.push(newItem)
                         return newArray,
-                        //map through this new array and return the media components and apply the props
+                        //map through this new array and return the media components and apply props
                         newArray.map((content=>{
                             return(
                                 

@@ -56,7 +56,7 @@ function DefaultArtist() {
                 <div className="grid grid-flow-col grid-cols-12 gap-2">
                     <div className="col-span-10 flex flex-col space-y-2 justify-start items-start w-full">
                         <div className="w-full flex flex-col space-y-6">
-                            <h3 className="text-white text-md lg:text-lg font-semibold">Popular</h3>
+                            <h3 className="dark:text-white text-gray-900  text-md lg:text-lg font-semibold">Popular</h3>
                             <div className="flex flex-col space-y-1 justify-start items-start w-full">
                                 <MiniSongComponent/>
                                 <MiniSongComponent/>
@@ -67,7 +67,7 @@ function DefaultArtist() {
                             </div> 
                         </div> 
                         <div className="flex justify-start items-start">
-                            <p className="uppercase text-xxs text-gray-400  hover:text-white font-semibold transition-all duration-150">See more</p>
+                            <p className="uppercase text-xxs dark:text-gray-400 text-gray-800  dark:hover:text-white hover:text-gray-900 font-semibold transition-all duration-150">See more</p>
                         </div>
                     </div>
                     <div className="col-span-2">

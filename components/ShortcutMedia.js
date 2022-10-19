@@ -5,7 +5,7 @@ import { BASE_URL, BASE_URL2 } from "../next.config"
 
 function ShortcutMedia({picture, title, isPlaying, progress, isNew, isPodcast, artist, id}) {
     return (
-        <Link passHref href={ isPodcast?`show/${id}`:`playlist/${id}`} >
+        <Link key={id} passHref href={ isPodcast?`show/${id}`:`playlist/${id}`} >
             <div title={title} className="dark:bg-gray-900 dark:hover:bg-card-hover  bg-blue-100 hover:bg-gray-300  w-96 rounded-md group h-16 flex space-x-4 pr-0 transition-call duration-500 cursor-pointer shadow-2xl drop-shadow-2xl">
                 <div className=" h-full max-h-full">
                     <Image  placeholder="blur" blurDataURL loading="lazy" className="rounded-l-md h-full" width={60} height={64} alt={`${title}`} src={`${BASE_URL}${picture}` || `${BASE_URL2}${picture}`}/>
